@@ -1,97 +1,113 @@
 function process_solver_logs(log_filepath, output_filepath)
-% PROCESS_SOLVER_LOGS Reads a structured log file, extracts key metrics, and saves them to a CSV.
-%
-%   Args:
-%       log_filepath (char): The full path to the input log file.
-%       output_filepath (char): The full path to the output CSV file.
+% PROCESS_SOLVER_LOGS Reads a structured log file line-by-line,
+% extracts key metrics, and saves them to a CSV.
+% This version is more resilient to inconsistent formatting.
 
-    % Read the entire log file content into a single string.
-    try
-        log_content = fileread(log_filepath);
-    catch
-        fprintf(2, 'Error: Could not read log file: %s\n', log_filepath);
+    % Open the log file for reading.
+    fid = fopen(log_filepath, 'r');
+    if fid == -1
+        fprintf(2, 'Error: Could not open log file: %s\n', log_filepath);
         return;
     end
 
-    % --- CRITICAL FIX: Replace non-breaking spaces with standard spaces ---
-    % The log file content contains non-standard spaces that cause regex to fail.
-    % This line ensures all spaces are uniform before parsing.
-    log_content = regexprep(log_content, char(160), ' ');
+    % Define keywords for each metric.
+    keywords = {
+        'ID: '
+        'FGMRES: init nrm:'
+        'FGMRES: final nrm:'
+        'FGMRES norm of error:'
+        'FGMRES error estimation:'
+        'FGMRES Effective Stability:'
+        'Relative residual after error update:'
+    };
 
-    % --- Define Regular Expressions for Data Extraction ---
-    % This pattern matches an entire system block, from 'Processing System'
-    % to the next one or the end of the file. It captures the System ID.
-    system_block_pattern = '========================================================================================================================\nProcessing System \d+ \(ID: (\d+)\)(?:.|\n)*?(?=Processing System|\Z)';
-    
-    % Find all system blocks in the log file
-    system_blocks = regexp(log_content, system_block_pattern, 'tokens');
-    
-    % Check if any system blocks were found
-    if isempty(system_blocks)
-        fprintf(2, 'Error: No system blocks found in the log file. Check the log file format.\n');
-        return;
+    % Initialize a cell array to store the extracted data.
+    all_data = cell(0, 6);
+    current_system_data = cell(1, 6);
+    current_system_ID = '';
+
+    line = fgetl(fid);
+    while ischar(line)
+        % Trim leading/trailing whitespace and replace non-standard spaces
+        line = strtrim(line);
+        line = regexprep(line, char(160), ' ');
+
+        % Look for the start of a new system block.
+        if contains(line, 'Processing System')
+            % If we have collected data for a system, store it.
+            if ~isempty(current_system_ID)
+                all_data(end+1, :) = current_system_data;
+            end
+            % Reset for the new system.
+            current_system_data = {NaN, NaN, NaN, NaN, NaN, NaN};
+            % Extract the System ID.
+            id_match = regexp(line, 'ID: (\d+)', 'tokens', 'once');
+            if ~isempty(id_match)
+                current_system_ID = id_match{1};
+            end
+        end
+
+        % Look for the FGMRES initial and final norms.
+        if contains(line, 'FGMRES: init nrm:')
+            nrm_match = regexp(line, 'FGMRES: init nrm: ([\d.eE+-]+)\s+final nrm: ([\d.eE+-]+)', 'tokens', 'once');
+            if ~isempty(nrm_match)
+                current_system_data{2} = str2double(nrm_match{1});
+                current_system_data{3} = str2double(nrm_match{2});
+            end
+        end
+        
+        % Look for the FGMRES error norm, handling both formats.
+        if contains(line, 'FGMRES norm of error:')
+            error_match = regexp(line, 'FGMRES norm of error: ([\d.eE+-]+)', 'tokens', 'once');
+            if ~isempty(error_match)
+                current_system_data{4} = str2double(error_match{1});
+            end
+        elseif contains(line, 'FGMRES error estimation:')
+            error_match = regexp(line, 'FGMRES error estimation: ([\d.eE+-]+)', 'tokens', 'once');
+            if ~isempty(error_match)
+                current_system_data{4} = str2double(error_match{1});
+            end
+        end
+
+        % Look for Effective Stability.
+        if contains(line, 'FGMRES Effective Stability:')
+            stability_match = regexp(line, 'FGMRES Effective Stability: ([\d.eE+-]+)', 'tokens', 'once');
+            if ~isempty(stability_match)
+                current_system_data{5} = str2double(stability_match{1});
+            end
+        end
+
+        % Look for Relative Residual.
+        if contains(line, 'Relative residual after error update:')
+            res_match = regexp(line, 'Relative residual after error update: ([\d.eE+-]+)', 'tokens', 'once');
+            if ~isempty(res_match)
+                current_system_data{6} = str2double(res_match{1});
+            end
+        end
+        
+        line = fgetl(fid);
     end
     
-    % Initialize a table to store the results
-    metrics = table('Size', [length(system_blocks), 6], ...
-        'VariableNames', {'System_ID', 'FGMRES_init_nrm', 'FGMRES_final_nrm', 'FGMRES_error_nrm', 'Effective_Stability', 'Relative_residual'}, ...
-        'VariableTypes', {'double', 'double', 'double', 'double', 'double', 'double'});
-    
-    % Loop through each extracted system block and get the specific data points
-    for i = 1:length(system_blocks)
-        system_ID_raw = system_blocks{i}{1};
-        block_content = system_blocks{i}{end};
-        
-        % --- Extract each metric individually for robustness ---
-        
-        % FGMRES Initial and Final Norms (found on the same line)
-        nrm_matches = regexp(block_content, 'FGMRES: init nrm: ([\d.eE+-]+)\s*final nrm: ([\d.eE+-]+)', 'tokens', 'once');
-        if ~isempty(nrm_matches)
-            metrics.FGMRES_init_nrm(i) = str2double(nrm_matches{1});
-            metrics.FGMRES_final_nrm(i) = str2double(nrm_matches{2});
-        else
-            metrics.FGMRES_init_nrm(i) = NaN;
-            metrics.FGMRES_final_nrm(i) = NaN;
-        end
-
-        % FGMRES Error Norm
-        error_nrm_matches = regexp(block_content, 'FGMRES norm of error: ([\d.eE+-]+)', 'tokens', 'once');
-        if ~isempty(error_nrm_matches)
-            metrics.FGMRES_error_nrm(i) = str2double(error_nrm_matches{1});
-        else
-            metrics.FGMRES_error_nrm(i) = NaN;
-        end
-        
-        % Effective Stability
-        stability_matches = regexp(block_content, 'FGMRES Effective Stability: ([\d.eE+-]+)', 'tokens', 'once');
-        if ~isempty(stability_matches)
-            metrics.Effective_Stability(i) = str2double(stability_matches{1});
-        else
-            metrics.Effective_Stability(i) = NaN;
-        end
-        
-        % Relative Residual after Error Update
-        rel_res_matches = regexp(block_content, 'Relative residual after error update: ([\d.eE+-]+)', 'tokens', 'once');
-        if ~isempty(rel_res_matches)
-            metrics.Relative_residual(i) = str2double(rel_res_matches{1});
-        else
-            metrics.Relative_residual(i) = NaN;
-        end
-
-        % Populate the table with the system ID
-        metrics.System_ID(i) = str2double(system_ID_raw);
+    % Store the last system's data.
+    if ~isempty(current_system_ID)
+        all_data(end+1, :) = current_system_data;
     end
+
+    fclose(fid);
     
+    % Add System IDs to the collected data.
+    system_ids = (1:size(all_data, 1))';
+    all_data(:, 1) = num2cell(system_ids);
+    
+    % Create a table from the data.
+    metrics = cell2table(all_data, ...
+        'VariableNames', {'System_ID', 'FGMRES_init_nrm', 'FGMRES_final_nrm', ...
+        'FGMRES_error_nrm', 'Effective_Stability', 'Relative_residual'});
+
     % Write the results to the CSV file.
     try
-        if exist(output_filepath, 'file') == 2
-            % Append to existing file (without header)
-            writetable(metrics, output_filepath, 'WriteMode', 'append', 'WriteVariableNames', false);
-        else
-            % Create a new file (with header)
-            writetable(metrics, output_filepath, 'WriteMode', 'overwrite', 'WriteVariableNames', true);
-        end
-        fprintf('Successfully wrote data for %d systems to %s\n', length(system_blocks), output_filepath);
+        writetable(metrics, output_filepath);
+        fprintf('Successfully wrote data for %d systems to %s\n', size(metrics, 1), output_filepath);
     catch
         fprintf(2, 'Error: Could not write to file: %s\n', output_filepath);
     end
