@@ -1,0 +1,491 @@
+Matrix base path: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_]
+Total number of systems to process: 19
+Output directory specified: [/home/axs2061/ACOPF_RESULTS/HybridSolverOutput]
+Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 0 (ID: 01)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 0: Generating the RHS.
+DEBUG: System 0: Performing initial KLU factorization and solve.
+KLU analysis status: 0
+KLU factorization status: 0
+KLU solve status: 0
+	2-Norm of the residual: 1.9422728443145207e-16
+2-norm of the error: 2.7575622835237716e-11
+DEBUG: Solving error equation with FGMRES.
+FGMRES error estimation: 2.4049948891596113e-11
+FGMRES: init nrm: 1.9422728443145207e-16 final nrm: 2.5167545363028794e-31 iter: 1
+FGMRES Effective Stability: 8.3201750763111885e-16
+DEBUG: Updating solution vector.
+DEBUG: Relative residual after error update: 9.3804357434712355e-20
+2-norm of the error: 2.5852135549405112e-11
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 1 (ID: 02)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 1: Generating the RHS.
+DEBUG: System 1: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 2.4703440698404834e-03
+	2-Norm of the residual: 1.4499477637796270e-16
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 2.4703441225727507e-03
+FGMRES: init nrm: 1.4499477637796270e-16 final nrm: 2.7314668564571563e-27 iter: 1
+FGMRES Effective Stability: 1.9326529727604590e-11
+DEBUG: Updating solution vector.
+2-norm of the error: 1.3425320873225680e-10
+DEBUG: Relative residual after error update: 1.3413548721236486e-19
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 2 (ID: 03)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_03.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_03.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 2: Generating the RHS.
+DEBUG: System 2: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 1.4230707086047782e-03
+	2-Norm of the residual: 3.0112987959116795e-16
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 1.4230706956803738e-03
+FGMRES: init nrm: 3.0112987959116795e-16 final nrm: 3.0630353747949930e-27 iter: 2
+FGMRES Effective Stability: 1.4142135624104608e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 7.4734145817669876e-11
+DEBUG: Relative residual after error update: 1.3993055499925382e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 3 (ID: 04)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_04.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_04.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 3: Generating the RHS.
+DEBUG: System 3: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 3.8673442817950525e-06
+	2-Norm of the residual: 3.7597745340989924e-12
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 3.8673442103562683e-06
+FGMRES: init nrm: 3.7597745340989924e-12 final nrm: 6.1572770594875029e-22 iter: 1
+FGMRES Effective Stability: 1.6407391962998629e-10
+DEBUG: Updating solution vector.
+2-norm of the error: 3.0885324054861746e-12
+DEBUG: Relative residual after error update: 1.9234887342855597e-17
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 4 (ID: 05)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_05.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_05.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 4: Generating the RHS.
+DEBUG: System 4: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 1.5732259917938305e-04
+	2-Norm of the residual: 1.1833011308903190e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 1.5732259831353134e-04
+FGMRES: init nrm: 1.1833011308903190e-15 final nrm: 6.2097506177998098e-27 iter: 2
+FGMRES Effective Stability: 1.4142135247492702e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 2.1499710565063136e-11
+DEBUG: Relative residual after error update: 1.9835035968615390e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 5 (ID: 06)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_06.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_06.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 5: Generating the RHS.
+DEBUG: System 5: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 2.4270031539254566e-03
+	2-Norm of the residual: 2.7367122840219684e-16
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 2.4270031514644435e-03
+FGMRES: init nrm: 2.7367122840219684e-16 final nrm: 1.8088986657959820e-26 iter: 2
+FGMRES Effective Stability: 1.4142135626325643e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 8.7643892297261759e-12
+DEBUG: Relative residual after error update: 1.2253909977463916e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 6 (ID: 07)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_07.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_07.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 6: Generating the RHS.
+DEBUG: System 6: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 3.3956830439036251e-03
+	2-Norm of the residual: 2.2108796372708357e-16
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 3.3956830469493728e-03
+FGMRES: init nrm: 2.2108796372708357e-16 final nrm: 7.4601245819850870e-28 iter: 2
+FGMRES Effective Stability: 1.4142134148082708e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 2.9004351774889409e-11
+DEBUG: Relative residual after error update: 2.0473767923822219e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 7 (ID: 08)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_08.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_08.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 7: Generating the RHS.
+DEBUG: System 7: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 6.2189664589258276e-01
+	2-Norm of the residual: 8.9047117660068011e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 6.2189664589158355e-01
+FGMRES: init nrm: 8.9047117660068011e-15 final nrm: 6.7091055492286278e-26 iter: 3
+FGMRES Effective Stability: 1.4142157519555170e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 1.4587383683198278e-11
+DEBUG: Relative residual after error update: 1.2658252768240115e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 8 (ID: 09)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_09.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_09.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 8: Generating the RHS.
+DEBUG: System 8: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 7.4033298908565678e+02
+	2-Norm of the residual: 8.4995455089252829e-14
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 7.4033298908544839e+02
+FGMRES: init nrm: 8.4995455089252829e-14 final nrm: 2.6944784468026178e-24 iter: 3
+FGMRES Effective Stability: 1.4142161737269143e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 2.1554061256360264e-10
+DEBUG: Relative residual after error update: 5.2286241145783567e-25
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 9 (ID: 10)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_10.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_10.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 9: Generating the RHS.
+DEBUG: System 9: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 4.7470394318920997e+05
+	2-Norm of the residual: 8.5438521597615429e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 4.7470394319031603e+05
+FGMRES: init nrm: 8.5438521597615429e-15 final nrm: 6.2792786486485172e-25 iter: 6
+FGMRES Effective Stability: 1.4146784277491458e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 1.1065538307498856e-06
+DEBUG: Relative residual after error update: 1.0536009333818589e-24
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 10 (ID: 11)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_11.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_11.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 10: Generating the RHS.
+DEBUG: System 10: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 1.6068257967093373e+02
+	2-Norm of the residual: 5.2524837947887815e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 1.6068257967100311e+02
+FGMRES: init nrm: 5.2524837947887815e-15 final nrm: 4.5703273831063510e-26 iter: 4
+FGMRES Effective Stability: 1.4142101354998009e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 1.2182659981733532e-10
+DEBUG: Relative residual after error update: 1.2898031219963731e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 11 (ID: 12)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_12.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_12.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 11: Generating the RHS.
+DEBUG: System 11: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 10
+
+ 	 !!! ALERT !!! CuSolverRf has crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
+ 
+KLU analysis status (redo): 0
+KLU factorization status (redo): 0
+KLU solve status (redo): 0
+	2-Norm of the residual: 1.1044302529505213e-15
+2-norm of the error: 1.0428354246311441e-11
+CuSolverRf solve status: 0
+2-norm of the error: 2.7672497144513426e-11
+	2-Norm of the residual: 2.5819266521458799e-16
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 2.4983171870757252e-11
+FGMRES: init nrm: 2.5819266521458799e-16 final nrm: 1.4087018748805044e-27 iter: 1
+FGMRES Effective Stability: 5.2650758946135122e-12
+DEBUG: Updating solution vector.
+2-norm of the error: 4.5442158207387195e-12
+DEBUG: Relative residual after error update: 4.2266768718760908e-17
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 12 (ID: 13)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_13.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_13.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 12: Generating the RHS.
+DEBUG: System 12: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 3.6957120584154360e-03
+	2-Norm of the residual: 3.2734569609340491e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 3.6957120582657081e-03
+FGMRES: init nrm: 3.2734569609340491e-15 final nrm: 4.0660004310868018e-28 iter: 2
+FGMRES Effective Stability: 1.4142135623392489e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 4.7297018223941228e-12
+DEBUG: Relative residual after error update: 2.7843297374402406e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 13 (ID: 14)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_14.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_14.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 13: Generating the RHS.
+DEBUG: System 13: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 4.2244389514984621e-06
+	2-Norm of the residual: 2.5436426843972081e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 4.2244402937173989e-06
+FGMRES: init nrm: 2.5436426843972081e-15 final nrm: 1.3730901337235058e-26 iter: 1
+FGMRES Effective Stability: 5.3963335264143168e-12
+DEBUG: Updating solution vector.
+2-norm of the error: 1.0468192383162959e-11
+DEBUG: Relative residual after error update: 2.1406845874259107e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 14 (ID: 15)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_15.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_15.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 14: Generating the RHS.
+DEBUG: System 14: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 1.4606919833683131e-06
+	2-Norm of the residual: 5.7763219295179441e-15
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 1.4606920383510871e-06
+FGMRES: init nrm: 5.7763219295179441e-15 final nrm: 1.4034039825767598e-24 iter: 1
+FGMRES Effective Stability: 2.5692042351516837e-10
+DEBUG: Updating solution vector.
+2-norm of the error: 6.5607401024182757e-12
+DEBUG: Relative residual after error update: 1.7048997986736432e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 15 (ID: 16)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_16.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_16.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 15: Generating the RHS.
+DEBUG: System 15: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 3.4113145718920845e-07
+	2-Norm of the residual: 1.4143140927605149e-13
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 3.4112885635941277e-07
+FGMRES: init nrm: 1.4143140927605149e-13 final nrm: 3.3143452120569149e-25 iter: 1
+FGMRES Effective Stability: 8.0755142322639977e-10
+DEBUG: Updating solution vector.
+2-norm of the error: 7.3104538847561620e-12
+DEBUG: Relative residual after error update: 1.3400957252679421e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 16 (ID: 17)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_17.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_17.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 16: Generating the RHS.
+DEBUG: System 16: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 1.3333184163182334e-06
+	2-Norm of the residual: 1.0128004582625094e-12
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 1.3333151402873365e-06
+FGMRES: init nrm: 1.0128004582625094e-12 final nrm: 8.1114987514949275e-27 iter: 2
+FGMRES Effective Stability: 1.4142130620813567e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 6.0716114848395423e-12
+DEBUG: Relative residual after error update: 1.1588254256476333e-18
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 17 (ID: 18)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_18.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_18.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 17: Generating the RHS.
+DEBUG: System 17: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 4.9635963622964949e-02
+	2-Norm of the residual: 2.2873511004456776e-08
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 4.9635963548149781e-02
+FGMRES: init nrm: 2.2873511004456776e-08 final nrm: 3.5801874219669462e-22 iter: 3
+FGMRES Effective Stability: 2.2429287726109388e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 7.5371479066365115e-11
+DEBUG: Relative residual after error update: 2.5136406039936632e-16
+Nothing to see here, all good19 systems.
+
+
+
+========================================================================================================================
+Processing System 18 (ID: 19)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_19.mtx
+========================================================================================================================
+
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_19.mtx
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 18: Generating the RHS.
+DEBUG: System 18: Using CuSolverRf refactorization and FGMRES.
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+2-norm of the error: 1.7502558452773489e+00
+	2-Norm of the residual: 8.5827398036702049e-07
+DEBUG: Solving error equation with FGMRES.
+FGMRES norm of error: 1.7502558452566348e+00
+FGMRES: init nrm: 8.5827398036702049e-07 final nrm: 6.7626047104999163e-21 iter: 3
+FGMRES Effective Stability: 9.4118386940963727e+00
+DEBUG: Updating solution vector.
+2-norm of the error: 2.5008214590445669e-11
+DEBUG: Relative residual after error update: 1.3067022335791496e-18
+
+--- Cleaning up ReSolve objects ---
+Cleanup complete. Program exiting.
