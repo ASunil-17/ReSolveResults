@@ -55,7 +55,7 @@ function process_solver_logs(log_filepath, output_filepath)
                 current_system_data{3} = str2double(nrm_match{2});
             end
         end
-        
+
         % Look for the FGMRES error norm, handling both formats.
         if contains(line, 'FGMRES norm of error:')
             error_match = regexp(line, 'FGMRES norm of error: ([\d.eE+-]+)', 'tokens', 'once');
@@ -84,21 +84,21 @@ function process_solver_logs(log_filepath, output_filepath)
                 current_system_data{6} = str2double(res_match{1});
             end
         end
-        
+
         line = fgetl(fid);
     end
-    
+
     % Store the last system's data.
     if ~isempty(current_system_ID)
         all_data(end+1, :) = current_system_data;
     end
 
     fclose(fid);
-    
+
     % Add System IDs to the collected data.
     system_ids = (1:size(all_data, 1))';
     all_data(:, 1) = num2cell(system_ids);
-    
+
     % Create a table from the data.
     metrics = cell2table(all_data, ...
         'VariableNames', {'System_ID', 'FGMRES_init_nrm', 'FGMRES_final_nrm', ...
