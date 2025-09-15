@@ -58,7 +58,7 @@ fclose(fid_log);
 
 % Iterate through all System IDs and write the results to the CSV file
 % The range is from 0 to 18 based on the provided log file.
-for i = 0:51
+for i = 0:14
     error1 = 'error:';
     error2 = 'error:';
 
