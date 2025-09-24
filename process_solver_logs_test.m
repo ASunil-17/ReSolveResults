@@ -65,7 +65,7 @@ fclose(fid_log);
 
 % Iterate through all System IDs and write the results to the CSV file
 % The loop range is fixed from 0 to 14 as per the original script.
-for i = 0:51
+for i = 0:18
     rcond_val = 'N/A';
     iter_val = 'N/A';
     
