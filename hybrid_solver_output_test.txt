@@ -2,7 +2,6 @@ Matrix base path: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_]
 Total number of systems to process: 15
 Output directory specified: [/home/axs2061/ACOPF_RESULTS/HybridSolverOutput]
 Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
-Nothing to see here, all good15 systems.
 
 
 
@@ -19,16 +18,14 @@ DEBUG: System 0: Performing initial KLU factorization and solve.
 KLU analysis status: 0
 KLU factorization status: 0
 KLU solve status: 0
-	2-Norm of the residual: 1.7810007494365032e-16
-2-norm of the error: 4.9515454813306978e-11
+Reciprocal Condition Number of System: 1.86574e-14
+	2-Norm of the residual: 3.8226507863610534e-16
+2-norm of the error: 7.6666338213278218e-11
 DEBUG: Solving error equation with FGMRES.
-FGMRES error estimation: 5.4251780601583328e-11
-FGMRES: init nrm: 1.7810007494365032e-16 final nrm: 1.0681856798405846e-29 iter: 1
-FGMRES Effective Stability: 5.8517037212948997e-14
-DEBUG: Updating solution vector.
-DEBUG: Relative residual after error update: 1.9185964832965045e-18
-2-norm of the error: 1.6948097328676656e-11
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.6187240346313016e-16
+FGMRES: init nrm: 3.8226507863610534e-16 final nrm: 1.8307706102514367e-28 iter: 1
+FGMRES Effective Stability: 4.7231986636647621e-13
+2-norm of the error: 7.2875481345522086e-11
 
 
 
@@ -43,17 +40,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 1: Generating the RHS.
 DEBUG: System 1: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 1.4527304980974568e-12
 CuSolverRf solve status: 0
-2-norm of the error: 8.6621783880835726e-05
-	2-Norm of the residual: 1.4222205923276455e-12
+2-norm of the error: 7.8397517001248370e-06
+	2-Norm of the residual: 2.9255812494871136e-13
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 8.6621783905941268e-05
-FGMRES: init nrm: 1.4222205923276455e-12 final nrm: 3.2361124025040031e-24 iter: 2
-FGMRES Effective Stability: 1.4142135891007628e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 8.6745849860148942e-12
-DEBUG: Relative residual after error update: 1.4923964243451444e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.5397526799668613e-16
+FGMRES: init nrm: 2.9255812494871136e-13 final nrm: 1.0886120609677768e-24 iter: 2
+FGMRES Effective Stability: 1.4142135357379888e+00
+2-norm of the error: 9.1267551153090397e-12
 
 
 
@@ -68,17 +63,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 2: Generating the RHS.
 DEBUG: System 2: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 8.3558533873530727e-14
 CuSolverRf solve status: 0
-2-norm of the error: 3.5716272508750177e-04
-	2-Norm of the residual: 5.4597292630400986e-12
+2-norm of the error: 9.9208465614979017e-05
+	2-Norm of the residual: 6.0665578595609581e-13
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 3.5716272480119861e-04
-FGMRES: init nrm: 5.4597292630400986e-12 final nrm: 7.5126323461247575e-24 iter: 2
-FGMRES Effective Stability: 1.4142135121913939e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 2.7592514712993046e-11
-DEBUG: Relative residual after error update: 7.0031055577976515e-17
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 2.4827278280066950e-17
+FGMRES: init nrm: 6.0665578595609581e-13 final nrm: 7.3572761913988389e-25 iter: 2
+FGMRES Effective Stability: 1.4142135748697269e+00
+2-norm of the error: 9.5191826962435270e-12
 
 
 
@@ -93,17 +86,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 3: Generating the RHS.
 DEBUG: System 3: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 4.0264151431134933e-14
 CuSolverRf solve status: 0
-2-norm of the error: 1.0422207096252872e-04
-	2-Norm of the residual: 1.8770919685907567e-13
+2-norm of the error: 1.0620116448578455e-04
+	2-Norm of the residual: 2.2323931607661252e-13
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 1.0422209973501437e-04
-FGMRES: init nrm: 1.8770919685907567e-13 final nrm: 1.0650974342816937e-24 iter: 2
-FGMRES Effective Stability: 1.4142138085464908e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 9.1298813416640034e-11
-DEBUG: Relative residual after error update: 7.1006656129903771e-17
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.1544561434162067e-16
+FGMRES: init nrm: 2.2323931607661252e-13 final nrm: 4.8892779328361065e-24 iter: 2
+FGMRES Effective Stability: 1.4142136166457522e+00
+2-norm of the error: 1.0636710312700000e-10
 
 
 
@@ -118,17 +109,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 4: Generating the RHS.
 DEBUG: System 4: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 5.7655191604262302e-15
 CuSolverRf solve status: 0
-2-norm of the error: 1.1817527602963144e-04
-	2-Norm of the residual: 1.4985285711840514e-13
+2-norm of the error: 1.0319579664330299e-04
+	2-Norm of the residual: 6.5183426387492246e-14
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 1.1817529744275604e-04
-FGMRES: init nrm: 1.4985285711840514e-13 final nrm: 2.4836380301834858e-25 iter: 2
-FGMRES Effective Stability: 1.4142136215555074e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 9.7608997570400184e-11
-DEBUG: Relative residual after error update: 9.0550073865696496e-17
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.7709698113885939e-16
+FGMRES: init nrm: 6.5183426387492246e-14 final nrm: 2.3691111616932239e-25 iter: 2
+FGMRES Effective Stability: 1.4142135437320311e+00
+2-norm of the error: 5.5987770613790882e-11
 
 
 
@@ -143,17 +132,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 5: Generating the RHS.
 DEBUG: System 5: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 1.9541559652265480e-15
 CuSolverRf solve status: 0
-2-norm of the error: 8.2623191156432963e-04
-	2-Norm of the residual: 7.7617695170374739e-13
+2-norm of the error: 6.9938372288417324e-04
+	2-Norm of the residual: 1.5171545952012109e-13
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 8.2623189152645072e-04
-FGMRES: init nrm: 7.7617695170374739e-13 final nrm: 1.2690838507254647e-24 iter: 2
-FGMRES Effective Stability: 1.4142139830993381e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 1.1059865900775880e-10
-DEBUG: Relative residual after error update: 1.6536094148134745e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 7.5015801216571083e-17
+FGMRES: init nrm: 1.5171545952012109e-13 final nrm: 9.1429132881249241e-25 iter: 2
+FGMRES Effective Stability: 1.4142139831122924e+00
+2-norm of the error: 6.3455502172650218e-11
 
 
 
@@ -168,17 +155,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 6: Generating the RHS.
 DEBUG: System 6: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 7.7833928693493457e-16
 CuSolverRf solve status: 0
-2-norm of the error: 7.6394906916561908e-02
-	2-Norm of the residual: 3.8937158000793600e-11
+2-norm of the error: 8.6261354213068048e-02
+	2-Norm of the residual: 2.6783064572217341e-11
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 7.6394906942546997e-02
-FGMRES: init nrm: 3.8937158000793600e-11 final nrm: 1.0304096370930821e-22 iter: 3
-FGMRES Effective Stability: 1.4142694968239620e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 9.5070319416221578e-11
-DEBUG: Relative residual after error update: 1.0049247011159992e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 3.0320368228051557e-17
+FGMRES: init nrm: 2.6783064572217341e-11 final nrm: 1.0452349230435503e-23 iter: 2
+FGMRES Effective Stability: 1.4142259909575150e+00
+2-norm of the error: 3.9323465397161773e-10
 
 
 
@@ -193,17 +178,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 7: Generating the RHS.
 DEBUG: System 7: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 1.2092529361493465e-16
 CuSolverRf solve status: 0
-2-norm of the error: 1.4500003080078008e-01
-	2-Norm of the residual: 5.4140807835962547e-12
+2-norm of the error: 5.4803919527111111e-01
+	2-Norm of the residual: 4.7454187251902496e-11
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 1.4500003088888772e-01
-FGMRES: init nrm: 5.4140807835962547e-12 final nrm: 2.1702290926237493e-23 iter: 3
-FGMRES Effective Stability: 1.4142220893632720e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 2.0326889158858132e-10
-DEBUG: Relative residual after error update: 1.4681579602062031e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 7.7298674531733200e-17
+FGMRES: init nrm: 4.7454187251902496e-11 final nrm: 4.4599982981661986e-24 iter: 3
+FGMRES Effective Stability: 1.4141843745317564e+00
+2-norm of the error: 1.4203192873175365e-10
 
 
 
@@ -218,17 +201,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 8: Generating the RHS.
 DEBUG: System 8: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 1.8252606155745620e-17
 CuSolverRf solve status: 0
-2-norm of the error: 1.1682500175753407e+00
-	2-Norm of the residual: 5.6729111359158563e-11
+2-norm of the error: 1.2748067730883750e+00
+	2-Norm of the residual: 6.1948623151495741e-11
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 1.1682500176213089e+00
-FGMRES: init nrm: 5.6729111359158563e-11 final nrm: 2.0515773277329508e-22 iter: 4
-FGMRES Effective Stability: 1.4167501240288394e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 1.6858547065557757e-10
-DEBUG: Relative residual after error update: 9.2866859877523297e-17
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 2.1413523925967202e-16
+FGMRES: init nrm: 6.1948623151495741e-11 final nrm: 2.8135552548117697e-22 iter: 3
+FGMRES Effective Stability: 1.4189153703579311e+00
+2-norm of the error: 1.9231451164595703e-10
 
 
 
@@ -243,17 +224,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 9: Generating the RHS.
 DEBUG: System 9: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 2.1129945914883171e-17
 CuSolverRf solve status: 0
-2-norm of the error: 2.2847692693711137e+00
-	2-Norm of the residual: 1.7596587115519238e-10
+2-norm of the error: 4.7234111753073249e-01
+	2-Norm of the residual: 2.7710251706374196e-11
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 2.2847692693725192e+00
-FGMRES: init nrm: 1.7596587115519238e-10 final nrm: 2.6019619234863557e-23 iter: 3
-FGMRES Effective Stability: 1.4141916592293835e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 1.3374701911081433e-10
-DEBUG: Relative residual after error update: 1.2165983547108455e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.7034264344358741e-16
+FGMRES: init nrm: 2.7710251706374196e-11 final nrm: 1.3691068252908288e-23 iter: 4
+FGMRES Effective Stability: 1.4145575099377599e+00
+2-norm of the error: 1.0559785042590633e-10
 
 
 
@@ -268,17 +247,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 10: Generating the RHS.
 DEBUG: System 10: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 1.9828251786721036e-17
 CuSolverRf solve status: 0
-2-norm of the error: 2.5291393711987720e+01
-	2-Norm of the residual: 5.7958005402227437e-09
+2-norm of the error: 2.6145569038743865e+01
+	2-Norm of the residual: 5.9214230297656290e-10
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 2.5291393711999618e+01
-FGMRES: init nrm: 5.7958005402227437e-09 final nrm: 3.0571567166799899e-22 iter: 4
-FGMRES Effective Stability: 1.4172557268381571e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 4.4812255920984304e-10
-DEBUG: Relative residual after error update: 1.3072044224218635e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 3.1426330520339930e-16
+FGMRES: init nrm: 5.9214230297656290e-10 final nrm: 1.3586487855337308e-23 iter: 4
+FGMRES Effective Stability: 1.4210573204437997e+00
+2-norm of the error: 3.8907174783363643e-10
 
 
 
@@ -293,17 +270,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 11: Generating the RHS.
 DEBUG: System 11: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 6.1573447342619034e-18
 CuSolverRf solve status: 0
-2-norm of the error: 7.2460798777485508e+01
-	2-Norm of the residual: 9.4491321457167590e-10
+2-norm of the error: 9.9348704921565670e+01
+	2-Norm of the residual: 9.1598685673523365e-10
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 7.2460798777484925e+01
-FGMRES: init nrm: 9.4491321457167590e-10 final nrm: 6.7700961132547039e-24 iter: 4
-FGMRES Effective Stability: 1.4165078009070731e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 9.8872664495560729e-10
-DEBUG: Relative residual after error update: 1.0745302393073066e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.7295627123086180e-16
+FGMRES: init nrm: 9.1598685673523365e-10 final nrm: 2.2920879804825364e-23 iter: 4
+FGMRES Effective Stability: 1.4251925347352365e+00
+2-norm of the error: 3.7532041737881659e-10
 
 
 
@@ -318,17 +293,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 12: Generating the RHS.
 DEBUG: System 12: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 9.8677616569530005e-19
 CuSolverRf solve status: 0
-2-norm of the error: 5.2541080095421694e+02
-	2-Norm of the residual: 2.6049246864010907e-09
+2-norm of the error: 1.3803644344854583e+03
+	2-Norm of the residual: 5.0435999178944001e-09
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 5.2541080095421626e+02
-FGMRES: init nrm: 2.6049246864010907e-09 final nrm: 2.5231915624487016e-23 iter: 4
-FGMRES Effective Stability: 1.4305322536703884e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 6.2185380335977898e-10
-DEBUG: Relative residual after error update: 1.3488813921392668e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.0689769674712534e-16
+FGMRES: init nrm: 5.0435999178944001e-09 final nrm: 1.1294581822236020e-23 iter: 4
+FGMRES Effective Stability: 1.4154710941529411e+00
+2-norm of the error: 1.3260411552225229e-09
 
 
 
@@ -343,25 +316,24 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 13: Generating the RHS.
 DEBUG: System 13: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 10
+Reciprocal Condition Number of System: 8.1616762573046767e-20
 
  	 !!! ALERT !!! CuSolverRf has crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
  
 KLU analysis status (redo): 0
 KLU factorization status (redo): 0
 KLU solve status (redo): 0
-	2-Norm of the residual: 2.1073991536818930e-16
-2-norm of the error: 6.0964602057700647e-10
+Reciprocal Condition Number of System: 8.1616762573046767e-20
+	2-Norm of the residual: 1.3644397860304865e-16
+2-norm of the error: 6.0463497185840342e-09
 CuSolverRf solve status: 0
-2-norm of the error: 4.9973161737599175e-05
-	2-Norm of the residual: 3.5633797075587021e-16
+2-norm of the error: 5.0096567964081442e-05
+	2-Norm of the residual: 3.3178499311332469e-16
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 4.9973265275385667e-05
-FGMRES: init nrm: 3.5633797075587021e-16 final nrm: 8.9157835917195822e-26 iter: 2
-FGMRES Effective Stability: 1.4142135556284818e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 2.1783192530238772e-09
-DEBUG: Relative residual after error update: 1.1068862650507507e-16
-Nothing to see here, all good15 systems.
+Update to intial guess is successful, final residual (solution plus update) 1.9694574049614985e-16
+FGMRES: init nrm: 3.3178499311332469e-16 final nrm: 2.8549758274416567e-26 iter: 2
+FGMRES Effective Stability: 1.4142135611184186e+00
+2-norm of the error: 2.2231634160957099e-10
 
 
 
@@ -376,16 +348,15 @@ CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 14: Generating the RHS.
 DEBUG: System 14: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
+Reciprocal Condition Number of System: 2.9645388996235321e-21
 CuSolverRf solve status: 0
-2-norm of the error: 5.4191979056637633e-04
-	2-Norm of the residual: 1.3714890751593178e-16
+2-norm of the error: 5.4863086729022795e-04
+	2-Norm of the residual: 1.4644356460985000e-16
 DEBUG: Solving error equation with FGMRES.
-FGMRES norm of error: 5.4192317226709461e-04
-FGMRES: init nrm: 1.3714890751593178e-16 final nrm: 3.0868046217329724e-25 iter: 2
-FGMRES Effective Stability: 1.4142134777506401e+00
-DEBUG: Updating solution vector.
-2-norm of the error: 3.6664449389625664e-08
-DEBUG: Relative residual after error update: 1.1328438532374737e-16
+Update to intial guess is successful, final residual (solution plus update) 1.2242469696025406e-16
+FGMRES: init nrm: 1.4644356460985000e-16 final nrm: 2.6544162578258703e-25 iter: 2
+FGMRES Effective Stability: 1.4142134487961857e+00
+2-norm of the error: 4.2275935924744703e-08
 
 --- Cleaning up ReSolve objects ---
 Cleanup complete. Program exiting.
