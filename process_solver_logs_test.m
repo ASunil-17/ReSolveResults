@@ -1,6 +1,6 @@
 function process_solver_logs(logFile, outputFile)
 % process_solver_logs A MATLAB script to extract solver performance data.
-% This script reads a log file, finds 'Reciprocal Condition Number' and
+% This script reads a log file, finds 'Growth Factor' and
 % 'FGMRES iteration' values for each system ID, and writes them to a CSV file.
 %
 % Inputs:
@@ -19,33 +19,49 @@ if fid_csv == -1
     error('Could not create output file: %s', outputFile);
 end
 
-% Write the new header to the CSV file
-fprintf(fid_csv, 'System_ID,Reciprocal_Condition_Number,FGMRES_Iterations\n');
+% === CHANGE 1: Update the CSV header ===
+fprintf(fid_csv, 'System_ID,Growth_Factor,FGMRES_Iterations\n');
 
 % Initialize a map to store the results for each system ID
-% The key is the system ID, and the value is a struct with the performance data
+% The struct is updated to store 'gfactor' instead of 'rcond'
 resultsMap = containers.Map('KeyType', 'double', 'ValueType', 'any');
 
 % Read the log file line by line
 currentSystemID = -1;
 line = fgetl(fid_log);
 while ischar(line)
-    
+
     % Find System ID to group data
     systemID_match = regexp(line, 'Processing System (\d+)', 'tokens', 'once');
     if ~isempty(systemID_match)
         currentSystemID = str2double(systemID_match{1});
         % Initialize the map entry for the current system ID
         if ~isKey(resultsMap, currentSystemID)
-            resultsMap(currentSystemID) = struct('rcond', 'N/A', 'iter', 'N/A');
+            % Initialize with 'N/A' for Growth Factor and Iterations
+            resultsMap(currentSystemID) = struct('gfactor', 'N/A', 'iter', 'N/A');
         end
     end
-    
-    % Find the Reciprocal Condition Number
-    rcond_match = regexp(line, 'Reciprocal Condition Number of System:\s*([-+]?[\d.]+(?:[eE][-+]?\d+)?)', 'tokens', 'once');
-    if ~isempty(rcond_match) && currentSystemID ~= -1
+
+    % === CHANGE 2: Find the Growth Factor (Handling scientific notation and 'inf') ===
+    % The pattern captures the value after "The growth factor is computed as "
+    % It captures either scientific notation (with optional sign) or 'inf'
+    gf_pattern = 'The growth factor is computed as\s*([-+]?[\d.]+(?:[eE][-+]?\d+)?|inf)';
+    gf_match = regexp(line, gf_pattern, 'tokens', 'once');
+
+    if ~isempty(gf_match) && currentSystemID ~= -1
         currentResult = resultsMap(currentSystemID);
-        currentResult.rcond = rcond_match{1};
+        
+        % The extracted string value
+        valueStr = gf_match{1};
+        
+        % Check for 'inf' and store the string representation
+        if strcmpi(valueStr, 'inf')
+            currentResult.gfactor = 'inf';
+        else
+            % Store the raw string value (e.g., '1.2345678901234567e+00')
+            currentResult.gfactor = valueStr;
+        end
+        
         resultsMap(currentSystemID) = currentResult;
     end
     
@@ -64,19 +80,20 @@ end
 fclose(fid_log);
 
 % Iterate through all System IDs and write the results to the CSV file
-% The loop range is fixed from 0 to 14 as per the original script.
+% The loop range is fixed from 0 to 18 (19 systems total)
 for i = 0:18
-    rcond_val = 'N/A';
+    gfactor_val = 'N/A';
     iter_val = 'N/A';
     
     if isKey(resultsMap, i)
         foundResult = resultsMap(i);
-        rcond_val = foundResult.rcond;
+        % === CHANGE 3: Extract gfactor_val instead of rcond_val ===
+        gfactor_val = foundResult.gfactor;
         iter_val = foundResult.iter;
     end
     
-    % Write the final line to the CSV file
-    fprintf(fid_csv, '%d,%s,%s\n', i, rcond_val, iter_val);
+    % Write the final line to the CSV file (System_ID, Growth_Factor, FGMRES_Iterations)
+    fprintf(fid_csv, '%d,%s,%s\n', i, gfactor_val, iter_val);
 end
 
 % Close the output CSV file
