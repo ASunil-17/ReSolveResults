@@ -1,7 +1,7 @@
 function process_solver_logs(logFile, outputFile)
 % process_solver_logs A MATLAB script to extract solver performance data.
-% This script reads a log file, finds 'Growth Factor' and
-% 'FGMRES iteration' values for each system ID, and writes them to a CSV file.
+% This script reads a log file, finds 'Growth Factor', 'FGMRES iteration', 
+% and 'System Ill-Scaling Measure' values for each system ID, and writes them to a CSV file.
 %
 % Inputs:
 %   logFile: The path to the input log file.
@@ -19,11 +19,11 @@ if fid_csv == -1
     error('Could not create output file: %s', outputFile);
 end
 
-% === CHANGE 1: Update the CSV header ===
-fprintf(fid_csv, 'System_ID,Growth_Factor,FGMRES_Iterations\n');
+% === MODIFICATION 1: Update the CSV header to include the new metric ===
+fprintf(fid_csv, 'System_ID,Growth_Factor,FGMRES_Iterations,Ill_Scaling_Measure\n');
 
 % Initialize a map to store the results for each system ID
-% The struct is updated to store 'gfactor' instead of 'rcond'
+% The struct is updated to store 'scaling_measure'
 resultsMap = containers.Map('KeyType', 'double', 'ValueType', 'any');
 
 % Read the log file line by line
@@ -37,28 +37,36 @@ while ischar(line)
         currentSystemID = str2double(systemID_match{1});
         % Initialize the map entry for the current system ID
         if ~isKey(resultsMap, currentSystemID)
-            % Initialize with 'N/A' for Growth Factor and Iterations
-            resultsMap(currentSystemID) = struct('gfactor', 'N/A', 'iter', 'N/A');
+            % Initialize all fields with 'N/A'
+            resultsMap(currentSystemID) = struct('gfactor', 'N/A', 'iter', 'N/A', 'scaling_measure', 'N/A');
         end
     end
 
-    % === CHANGE 2: Find the Growth Factor (Handling scientific notation and 'inf') ===
-    % The pattern captures the value after "The growth factor is computed as "
-    % It captures either scientific notation (with optional sign) or 'inf'
+    % === MODIFICATION 2: Find the System Ill-Scaling Measure ===
+    % The pattern captures the value after "The system scalling measure is "
+    % It captures a number in scientific notation (e.g., 6.3159996758641396e+12)
+    scaling_pattern = 'The system scalling measure is\s*([-+]?[\d.]+(?:[eE][-+]?\d+)?)';
+    scaling_match = regexp(line, scaling_pattern, 'tokens', 'once');
+    
+    if ~isempty(scaling_match) && currentSystemID ~= -1
+        currentResult = resultsMap(currentSystemID);
+        % Store the raw string value (e.g., '6.3159996758641396e+12')
+        currentResult.scaling_measure = scaling_match{1};
+        resultsMap(currentSystemID) = currentResult;
+    end
+    
+    % Find the Growth Factor (Handling scientific notation and 'inf')
     gf_pattern = 'The growth factor is computed as\s*([-+]?[\d.]+(?:[eE][-+]?\d+)?|inf)';
     gf_match = regexp(line, gf_pattern, 'tokens', 'once');
 
     if ~isempty(gf_match) && currentSystemID ~= -1
         currentResult = resultsMap(currentSystemID);
         
-        % The extracted string value
         valueStr = gf_match{1};
         
-        % Check for 'inf' and store the string representation
         if strcmpi(valueStr, 'inf')
             currentResult.gfactor = 'inf';
         else
-            % Store the raw string value (e.g., '1.2345678901234567e+00')
             currentResult.gfactor = valueStr;
         end
         
@@ -80,20 +88,23 @@ end
 fclose(fid_log);
 
 % Iterate through all System IDs and write the results to the CSV file
-% The loop range is fixed from 0 to 18 (19 systems total)
+% The loop range is fixed from 0 to 14
 for i = 0:14
     gfactor_val = 'N/A';
     iter_val = 'N/A';
+    scaling_val = 'N/A'; % Initialize the new variable
     
     if isKey(resultsMap, i)
         foundResult = resultsMap(i);
-        % === CHANGE 3: Extract gfactor_val instead of rcond_val ===
         gfactor_val = foundResult.gfactor;
         iter_val = foundResult.iter;
+        % === MODIFICATION 3: Extract the scaling measure value ===
+        scaling_val = foundResult.scaling_measure;
     end
     
-    % Write the final line to the CSV file (System_ID, Growth_Factor, FGMRES_Iterations)
-    fprintf(fid_csv, '%d,%s,%s\n', i, gfactor_val, iter_val);
+    % === MODIFICATION 4: Write the new column to the CSV file ===
+    % Output format: System_ID, Growth_Factor, FGMRES_Iterations, Ill_Scaling_Measure
+    fprintf(fid_csv, '%d,%s,%s,%s\n', i, gfactor_val, iter_val, scaling_val);
 end
 
 % Close the output CSV file
