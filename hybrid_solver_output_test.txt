@@ -18,16 +18,16 @@ DEBUG: System 0: Performing initial KLU factorization and solve.
 KLU analysis status: 0
 KLU factorization status: 0
 KLU solve status: 0
-The system scalling measure is 6.3159996758641396e+12
-	2-Norm of the residual: 4.8183493035495505e-16
-2-norm of the error: 3.1298700753008978e-11
+The system scalling measure is 1.9486452844137056e+12
+	2-Norm of the residual: 7.5873795084414758e-16
+2-norm of the error: 3.8634471554236151e-11
 The error after cusolverRfResestValues: 0
 The error due to cusolverRfRefactor: 0
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.2043832141734899e-19
-FGMRES: init nrm: 4.8183493035495505e-16 final nrm: 7.2831234431538055e-31 iter: 1
-FGMRES Effective Stability: 1.2966100808084629e-15
-2-norm of the error: 2.7762242059383194e-11
+Update to intial guess is successful, final residual (solution plus update) 4.6434510288504569e-17
+FGMRES: init nrm: 7.5873795084414758e-16 final nrm: 2.8300067382319154e-31 iter: 1
+FGMRES Effective Stability: 3.0894608491518822e-16
+2-norm of the error: 3.7579815491605410e-11
 
 
 
@@ -48,14 +48,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.0000000000000000e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.5711384923128330e-03
-	2-Norm of the residual: 1.4787724719432675e-16
+2-norm of the error: 3.0855171234419845e-04
+	2-Norm of the residual: 2.6547295281668418e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 5.1870031542386376e-19
-FGMRES: init nrm: 1.4787724719432675e-16 final nrm: 6.8028640502772883e-27 iter: 1
-FGMRES Effective Stability: 5.0068083160385144e-11
-The system scalling measure is 1.6379403253450602e+16
-2-norm of the error: 5.8354550062899822e-11
+Update to intial guess is successful, final residual (solution plus update) 2.0403700304575380e-16
+FGMRES: init nrm: 2.6547295281668418e-16 final nrm: 3.0849187456482965e-27 iter: 1
+FGMRES Effective Stability: 1.1440925671629805e-11
+The system scalling measure is 1.7363785638980450e+16
+2-norm of the error: 3.1229438455114033e-11
 
 
 
@@ -76,14 +76,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.4037335870525025e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.3034762571738302e-03
-	2-Norm of the residual: 3.5059495084653950e-16
+2-norm of the error: 1.0022547331901333e-02
+	2-Norm of the residual: 1.8696084441652928e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 7.3312074173144717e-17
-FGMRES: init nrm: 3.5059495084653950e-16 final nrm: 4.0256482575623359e-27 iter: 2
-FGMRES Effective Stability: 1.4142135626509200e+00
-The system scalling measure is 1.0558261438781266e+16
-2-norm of the error: 3.2976009410302108e-10
+Update to intial guess is successful, final residual (solution plus update) 1.3393329591345053e-16
+FGMRES: init nrm: 1.8696084441652928e-15 final nrm: 1.2647528200570710e-26 iter: 2
+FGMRES Effective Stability: 1.4142135623818779e+00
+The system scalling measure is 2.6422436463188432e+16
+2-norm of the error: 2.1223941546107160e-10
 
 
 
@@ -104,14 +104,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 7.3096935379080477e+01
 CuSolverRf solve status: 0
-2-norm of the error: 2.4455978911656974e-06
-	2-Norm of the residual: 1.3623175007006912e-12
+2-norm of the error: 4.5447403885383981e-06
+	2-Norm of the residual: 6.9416983287545983e-12
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.2334148691622449e-17
-FGMRES: init nrm: 1.3623175007006912e-12 final nrm: 6.9251765902436222e-22 iter: 1
-FGMRES Effective Stability: 5.7187887201238611e-10
-The system scalling measure is 1.0810986821982246e+10
-2-norm of the error: 3.0836021421245805e-12
+Update to intial guess is successful, final residual (solution plus update) 3.0798889830317480e-18
+FGMRES: init nrm: 6.9416983287545983e-12 final nrm: 3.0402923794606315e-22 iter: 1
+FGMRES Effective Stability: 6.4163602252150551e-11
+The system scalling measure is 7.5902486100484818e+10
+2-norm of the error: 3.3741876034138713e-12
 
 
 
@@ -132,14 +132,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.6735362178519924e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.8310556343632887e-04
-	2-Norm of the residual: 1.3052278382787409e-15
+2-norm of the error: 1.4460548563823065e-04
+	2-Norm of the residual: 1.7367224169417552e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.6889521887828255e-21
-FGMRES: init nrm: 1.3052278382787409e-15 final nrm: 5.1489370704770264e-27 iter: 2
-FGMRES Effective Stability: 1.4142135503501938e+00
-The system scalling measure is 1.5509115542427618e+15
-2-norm of the error: 6.2152795695492613e-12
+Update to intial guess is successful, final residual (solution plus update) 4.1970451979555720e-16
+FGMRES: init nrm: 1.7367224169417552e-15 final nrm: 3.0832660726914019e-27 iter: 2
+FGMRES Effective Stability: 1.4142133411216311e+00
+The system scalling measure is 2.4108934995641085e+15
+2-norm of the error: 1.2127316527060734e-11
 
 
 
@@ -160,14 +160,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.0000000000000000e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.0664978597670988e-02
-	2-Norm of the residual: 1.1352328046834065e-15
+2-norm of the error: 3.6339686112095639e-03
+	2-Norm of the residual: 3.1652963563522778e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 7.3593028466904969e-20
-FGMRES: init nrm: 1.1352328046834065e-15 final nrm: 7.5470631715798140e-26 iter: 2
-FGMRES Effective Stability: 1.4142135616004579e+00
-The system scalling measure is 5.2519312450385050e+15
-2-norm of the error: 1.1341949017009926e-11
+Update to intial guess is successful, final residual (solution plus update) 8.8747618949154416e-17
+FGMRES: init nrm: 3.1652963563522778e-16 final nrm: 2.6834796948196727e-26 iter: 2
+FGMRES Effective Stability: 1.4142135672608966e+00
+The system scalling measure is 6.3011796896749530e+15
+2-norm of the error: 1.5660810996893317e-11
 
 
 
@@ -188,14 +188,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 9.9999999999999978e-01
 CuSolverRf solve status: 0
-2-norm of the error: 2.8791858748578509e-03
-	2-Norm of the residual: 1.7469357084814803e-16
+2-norm of the error: 4.6672318107788269e-03
+	2-Norm of the residual: 2.5932946031600399e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 6.1341911364656565e-22
-FGMRES: init nrm: 1.7469357084814803e-16 final nrm: 7.1696420334406586e-28 iter: 2
-FGMRES Effective Stability: 1.4142135597166121e+00
-The system scalling measure is 2.8340752332987709e+17
-2-norm of the error: 8.4902149139020845e-12
+Update to intial guess is successful, final residual (solution plus update) 1.5649065377761285e-16
+FGMRES: init nrm: 2.5932946031600399e-16 final nrm: 1.0014102182324731e-27 iter: 2
+FGMRES Effective Stability: 1.4142134987309485e+00
+The system scalling measure is 3.7330834293144147e+17
+2-norm of the error: 3.7783495552810728e-11
 
 
 
@@ -216,14 +216,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 3.5532322762319080e+00
 CuSolverRf solve status: 0
-2-norm of the error: 9.2474700763035789e-01
-	2-Norm of the residual: 1.6403404430407881e-14
+2-norm of the error: 1.1725398584279054e+00
+	2-Norm of the residual: 9.2343148636584764e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 5.4092835019908066e-17
-FGMRES: init nrm: 1.6403404430407881e-14 final nrm: 7.0903737090772024e-26 iter: 3
-FGMRES Effective Stability: 1.4142148466722571e+00
-The system scalling measure is 7.3023313570337011e+17
-2-norm of the error: 2.6872239872687547e-11
+Update to intial guess is successful, final residual (solution plus update) 8.3942263272476814e-18
+FGMRES: init nrm: 9.2343148636584764e-15 final nrm: 5.0960482195374769e-26 iter: 3
+FGMRES Effective Stability: 1.4142134606914400e+00
+The system scalling measure is 1.7757209702117325e+18
+2-norm of the error: 3.6622852006070889e-11
 
 
 
@@ -244,14 +244,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 2.2129684378188557e+01
 CuSolverRf solve status: 0
-2-norm of the error: 4.7533666706099157e+03
-	2-Norm of the residual: 1.1131876561487431e-13
+2-norm of the error: 1.4077588127444013e+04
+	2-Norm of the residual: 9.2155753504611094e-14
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.8828335121482774e-16
-FGMRES: init nrm: 1.1131876561487431e-13 final nrm: 4.3286466113753529e-24 iter: 3
-FGMRES Effective Stability: 1.4142141724555053e+00
-The system scalling measure is 1.8802635913324501e+20
-2-norm of the error: 3.6799827442430069e-10
+Update to intial guess is successful, final residual (solution plus update) 1.4759817751732763e-16
+FGMRES: init nrm: 9.2155753504611094e-14 final nrm: 2.0217884302401423e-23 iter: 3
+FGMRES Effective Stability: 1.4142127637728872e+00
+The system scalling measure is 2.9309861146700982e+20
+2-norm of the error: 2.3729116814008662e-09
 
 
 
@@ -272,14 +272,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 3.6032106313932570e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.2430902094627036e+07
-	2-Norm of the residual: 1.0842030184737897e-14
+2-norm of the error: 1.4334721389294941e+07
+	2-Norm of the residual: 6.2141405614588116e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 3.0206084398816250e-16
-FGMRES: init nrm: 1.0842030184737897e-14 final nrm: 3.9775368660842305e-23 iter: 9
-FGMRES Effective Stability: 1.4532911319963000e+00
-The system scalling measure is 1.2341866555610292e+23
-2-norm of the error: 2.4541605834277613e-05
+Update to intial guess is successful, final residual (solution plus update) 1.1839504072141829e-16
+FGMRES: init nrm: 6.2141405614588116e-15 final nrm: 2.0178071227914382e-23 iter: 8
+FGMRES Effective Stability: 1.4211662929710995e+00
+The system scalling measure is 1.9590553076546650e+23
+2-norm of the error: 7.5364649756632794e-05
 
 
 
@@ -300,14 +300,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 4.4669747393064476e+00
 CuSolverRf solve status: 0
-2-norm of the error: 6.5029290247282381e+02
-	2-Norm of the residual: 6.6588816916020979e-15
+2-norm of the error: 6.7935085513672789e+02
+	2-Norm of the residual: 4.5908937691960309e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.7407059424171165e-16
-FGMRES: init nrm: 6.6588816916020979e-15 final nrm: 7.1086447621730437e-26 iter: 4
-FGMRES Effective Stability: 1.4142802447211191e+00
-The system scalling measure is 8.6677320451018169e+20
-2-norm of the error: 1.0170144029599403e-10
+Update to intial guess is successful, final residual (solution plus update) 1.3645658154306232e-16
+FGMRES: init nrm: 4.5908937691960309e-15 final nrm: 1.4820793665855389e-25 iter: 4
+FGMRES Effective Stability: 1.4142092118765603e+00
+The system scalling measure is 1.3730912244704585e+21
+2-norm of the error: 3.6206050638127263e-10
 
 
 
@@ -334,19 +334,19 @@ KLU analysis status (redo): 0
 KLU factorization status (redo): 0
 KLU solve status (redo): 0
 Reciprocal Condition Number of System: 3.3702254170015171e-08
-	2-Norm of the residual: 1.6441738952370237e-16
-2-norm of the error: 9.5487620501259622e-12
+	2-Norm of the residual: 2.1344738331669108e-16
+2-norm of the error: 2.6816893899997526e-11
 The error after cusolverRfResestValues: 0
 The error due to cusolverRfRefactor: 0
 CuSolverRf solve status: 0
-2-norm of the error: 1.3403156160405937e-11
-	2-Norm of the residual: 1.5571605606754053e-16
+2-norm of the error: 4.0039578476183735e-11
+	2-Norm of the residual: 1.7691490743012497e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 4.2284640021321545e-17
-FGMRES: init nrm: 1.5571605606754053e-16 final nrm: 6.7089872388117125e-28 iter: 1
-FGMRES Effective Stability: 4.3903342555291761e-12
-The system scalling measure is 3.9720119833417954e+09
-2-norm of the error: 7.2560683871750320e-12
+Update to intial guess is not successful, final residual greater than initial residual 1.9377297538105489e-16
+FGMRES: init nrm: 1.7691490743012497e-16 final nrm: 2.2229379391941969e-27 iter: 1
+FGMRES Effective Stability: 1.2133961938036752e-11
+The system scalling measure is 6.1561766165378971e+09
+2-norm of the error: 4.0039578476183735e-11
 
 
 
@@ -367,14 +367,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.0000000000000000e+00
 CuSolverRf solve status: 0
-2-norm of the error: 5.3120979726643475e-03
-	2-Norm of the residual: 2.0427282795576627e-15
+2-norm of the error: 6.8333567173887930e-03
+	2-Norm of the residual: 2.1989974478547950e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 4.0066170566479494e-22
-FGMRES: init nrm: 2.0427282795576627e-15 final nrm: 2.2598537275310081e-28 iter: 2
-FGMRES Effective Stability: 1.4142135623908452e+00
-The system scalling measure is 2.3262816962495840e+17
-2-norm of the error: 4.7624862534859319e-12
+Update to intial guess is successful, final residual (solution plus update) 2.1088106848656861e-25
+FGMRES: init nrm: 2.1989974478547950e-15 final nrm: 1.7154719848610642e-28 iter: 2
+FGMRES Effective Stability: 1.4142135623831305e+00
+The system scalling measure is 3.7301370765236499e+17
+2-norm of the error: 8.2480868970343665e-12
 
 
 
@@ -395,14 +395,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.0000000017953299e+00
 CuSolverRf solve status: 0
-2-norm of the error: 3.3380706119540628e-06
-	2-Norm of the residual: 1.0649088293439815e-15
+2-norm of the error: 7.3748075972954430e-06
+	2-Norm of the residual: 1.9528576271623525e-15
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.8406398333593881e-17
-FGMRES: init nrm: 1.0649088293439815e-15 final nrm: 5.3639632201263166e-27 iter: 1
-FGMRES Effective Stability: 5.1129134669832699e-12
-The system scalling measure is 5.5079796299285850e+14
-2-norm of the error: 4.9928996718485700e-12
+Update to intial guess is successful, final residual (solution plus update) 2.8456242688491777e-17
+FGMRES: init nrm: 1.9528576271623525e-15 final nrm: 1.1039993149272139e-26 iter: 1
+FGMRES Effective Stability: 5.6514748590515001e-12
+The system scalling measure is 9.5797127369052100e+14
+2-norm of the error: 1.7935584944620063e-11
 
 
 
@@ -423,14 +423,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.5787754913684500e+00
 CuSolverRf solve status: 0
-2-norm of the error: 6.8203940354250786e-07
-	2-Norm of the residual: 9.4138757034181140e-16
+2-norm of the error: 1.4191158497694855e-06
+	2-Norm of the residual: 6.7704541250530436e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.5807092788204979e-18
-FGMRES: init nrm: 9.4138757034181140e-16 final nrm: 1.2192852219547073e-25 iter: 1
-FGMRES Effective Stability: 1.2994070180249553e-10
-The system scalling measure is 3.0827848351834038e+14
-2-norm of the error: 3.6802623048074227e-12
+Update to intial guess is successful, final residual (solution plus update) 1.4288264928635258e-16
+FGMRES: init nrm: 6.7704541250530436e-16 final nrm: 1.4661125109554234e-25 iter: 1
+FGMRES Effective Stability: 2.1655608622451370e-10
+The system scalling measure is 5.0030964149190269e+14
+2-norm of the error: 1.6486498609068889e-11
 
 
 
@@ -451,14 +451,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.1211675856815054e+03
 CuSolverRf solve status: 0
-2-norm of the error: 5.3614743374260898e-07
-	2-Norm of the residual: 3.7704587171423286e-13
+2-norm of the error: 1.1221409195194005e-06
+	2-Norm of the residual: 3.4527167350453208e-13
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.4613496358779374e-16
-FGMRES: init nrm: 3.7704587171423286e-13 final nrm: 1.4249124753762546e-24 iter: 1
-FGMRES Effective Stability: 3.0853627988419284e-09
-The system scalling measure is 4.4927965020446016e+13
-2-norm of the error: 1.1396493828205807e-11
+Update to intial guess is successful, final residual (solution plus update) 2.7086784976432829e-16
+FGMRES: init nrm: 3.4527167350453208e-13 final nrm: 1.9800419227007637e-24 iter: 1
+FGMRES Effective Stability: 3.5351552734062572e-09
+The system scalling measure is 8.2591778870581422e+13
+2-norm of the error: 1.0504551394637268e-11
 
 
 
@@ -479,14 +479,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 1.4651815287654816e+04
 CuSolverRf solve status: 0
-2-norm of the error: 3.9937497131104859e-06
-	2-Norm of the residual: 4.8598015246145839e-12
+2-norm of the error: 1.4812703683592032e-06
+	2-Norm of the residual: 1.4503702187212522e-12
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.9451557866455069e-16
-FGMRES: init nrm: 4.8598015246145839e-12 final nrm: 9.7230992354848189e-27 iter: 2
-FGMRES Effective Stability: 1.4142046585615027e+00
-The system scalling measure is 4.2375757419803297e+13
-2-norm of the error: 8.9684352331019027e-12
+Update to intial guess is successful, final residual (solution plus update) 2.7294752841988812e-16
+FGMRES: init nrm: 1.4503702187212522e-12 final nrm: 1.3363526388943976e-23 iter: 1
+FGMRES Effective Stability: 8.4481280737047258e-09
+The system scalling measure is 1.2915172875493661e+14
+2-norm of the error: 5.3375093293412680e-12
 
 
 
@@ -507,14 +507,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 2.8368214889626441e+04
 CuSolverRf solve status: 0
-2-norm of the error: 1.8296937836143159e-03
-	2-Norm of the residual: 5.6354652724724747e-09
+2-norm of the error: 3.0447597556094063e-02
+	2-Norm of the residual: 6.3715588043098896e-09
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.3705764790679627e-16
-FGMRES: init nrm: 5.6354652724724747e-09 final nrm: 8.3317262855405496e-24 iter: 2
-FGMRES Effective Stability: 1.4175797022122447e+00
-The system scalling measure is 1.5826136104955647e+14
-2-norm of the error: 3.1409221225933522e-11
+Update to intial guess is successful, final residual (solution plus update) 1.2702045415534201e-16
+FGMRES: init nrm: 6.3715588043098896e-09 final nrm: 1.1023487193348177e-22 iter: 3
+FGMRES Effective Stability: 1.6319886325306459e+00
+The system scalling measure is 2.3588962370366588e+14
+2-norm of the error: 1.1520063591324962e-10
 
 
 
@@ -535,14 +535,14 @@ KLU refactorization status: 0
 Extracting L and U factors 
 The growth factor is computed as 8.0389647539035694e+04
 CuSolverRf solve status: 0
-2-norm of the error: 3.8056204594923371e-01
-	2-Norm of the residual: 5.5361775664948280e-08
+2-norm of the error: 2.8596477419862620e-01
+	2-Norm of the residual: 1.4668237791038609e-08
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.3934106801470033e-16
-FGMRES: init nrm: 5.5361775664948280e-08 final nrm: 9.0949738429010184e-22 iter: 3
-FGMRES Effective Stability: 8.4240477697249219e+00
-The system scalling measure is 3.3299901365219681e+14
-2-norm of the error: 9.2767389255089371e-12
+Update to intial guess is successful, final residual (solution plus update) 2.5827621714891200e-16
+FGMRES: init nrm: 1.4668237791038609e-08 final nrm: 5.4763361329898624e-22 iter: 4
+FGMRES Effective Stability: 6.7160094691846366e+00
+The system scalling measure is 4.7651446748107369e+14
+2-norm of the error: 1.5044755521768572e-11
 
 --- Cleaning up ReSolve objects ---
 Cleanup complete. Program exiting.
