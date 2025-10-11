@@ -89,7 +89,7 @@ fclose(fid_log);
 
 % Iterate through all System IDs and write the results to the CSV file
 % The loop range is fixed from 0 to 14
-for i = 0:14
+for i = 0:51
     gfactor_val = 'N/A';
     iter_val = 'N/A';
     scaling_val = 'N/A'; % Initialize the new variable
