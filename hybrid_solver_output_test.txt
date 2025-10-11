@@ -1,5 +1,5 @@
-Matrix base path: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_]
-Total number of systems to process: 19
+Matrix base path: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_]
+Total number of systems to process: 15
 Output directory specified: [/home/axs2061/ACOPF_RESULTS/HybridSolverOutput]
 Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
 
@@ -7,38 +7,38 @@ Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
 
 ========================================================================================================================
 Processing System 0 (ID: 01)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_01.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_01.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 0: Generating the RHS.
 DEBUG: System 0: Performing initial KLU factorization and solve.
 KLU analysis status: 0
 KLU factorization status: 0
 KLU solve status: 0
-The system scalling measure is 1.9486452844137056e+12
-	2-Norm of the residual: 7.5873795084414758e-16
-2-norm of the error: 3.8634471554236151e-11
+The system scalling measure is 1.9368500584860824e+13
+	2-Norm of the residual: 4.1898884337443820e-16
+2-norm of the error: 6.8086229259177421e-11
 The error after cusolverRfResestValues: 0
 The error due to cusolverRfRefactor: 0
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 4.6434510288504569e-17
-FGMRES: init nrm: 7.5873795084414758e-16 final nrm: 2.8300067382319154e-31 iter: 1
-FGMRES Effective Stability: 3.0894608491518822e-16
-2-norm of the error: 3.7579815491605410e-11
+Update to intial guess is successful, final residual (solution plus update) 2.3792167985103234e-18
+FGMRES: init nrm: 4.1898884337443820e-16 final nrm: 2.6399512931307149e-29 iter: 1
+FGMRES Effective Stability: 6.3667941924954513e-14
+2-norm of the error: 2.3634448407704737e-11
 
 
 
 ========================================================================================================================
 Processing System 1 (ID: 02)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_02.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_02.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 1: Generating the RHS.
 DEBUG: System 1: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -46,27 +46,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.0000000000000000e+00
+The growth factor is computed as 5.3786508203296171e+02
 CuSolverRf solve status: 0
-2-norm of the error: 3.0855171234419845e-04
-	2-Norm of the residual: 2.6547295281668418e-16
+2-norm of the error: 2.5277790007632627e-05
+	2-Norm of the residual: 4.3211657452258620e-13
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.0403700304575380e-16
-FGMRES: init nrm: 2.6547295281668418e-16 final nrm: 3.0849187456482965e-27 iter: 1
-FGMRES Effective Stability: 1.1440925671629805e-11
-The system scalling measure is 1.7363785638980450e+16
-2-norm of the error: 3.1229438455114033e-11
+Update to intial guess is successful, final residual (solution plus update) 1.1593422646527900e-16
+FGMRES: init nrm: 4.3211657452258620e-13 final nrm: 1.1513441869945265e-24 iter: 2
+FGMRES Effective Stability: 1.4142134179003480e+00
+The system scalling measure is 2.8186787641285980e+11
+2-norm of the error: 8.6029772651051122e-12
 
 
 
 ========================================================================================================================
 Processing System 2 (ID: 03)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_03.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_03.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_03.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_03.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 2: Generating the RHS.
 DEBUG: System 2: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -74,27 +74,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.4037335870525025e+00
+The growth factor is computed as 5.0399767825163266e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.0022547331901333e-02
-	2-Norm of the residual: 1.8696084441652928e-15
+2-norm of the error: 3.0118382117860396e-05
+	2-Norm of the residual: 2.2274936204941125e-13
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.3393329591345053e-16
-FGMRES: init nrm: 1.8696084441652928e-15 final nrm: 1.2647528200570710e-26 iter: 2
-FGMRES Effective Stability: 1.4142135623818779e+00
-The system scalling measure is 2.6422436463188432e+16
-2-norm of the error: 2.1223941546107160e-10
+Update to intial guess is successful, final residual (solution plus update) 1.7965571072246453e-16
+FGMRES: init nrm: 2.2274936204941125e-13 final nrm: 2.0281079120745440e-24 iter: 2
+FGMRES Effective Stability: 1.4142135795051947e+00
+The system scalling measure is 4.0997888414496484e+13
+2-norm of the error: 8.0115395209932899e-12
 
 
 
 ========================================================================================================================
 Processing System 3 (ID: 04)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_04.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_04.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_04.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_04.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 3: Generating the RHS.
 DEBUG: System 3: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -102,27 +102,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 7.3096935379080477e+01
+The growth factor is computed as 1.7445152383096513e+01
 CuSolverRf solve status: 0
-2-norm of the error: 4.5447403885383981e-06
-	2-Norm of the residual: 6.9416983287545983e-12
+2-norm of the error: 2.6261787371323439e-04
+	2-Norm of the residual: 6.3358489570364428e-14
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 3.0798889830317480e-18
-FGMRES: init nrm: 6.9416983287545983e-12 final nrm: 3.0402923794606315e-22 iter: 1
-FGMRES Effective Stability: 6.4163602252150551e-11
-The system scalling measure is 7.5902486100484818e+10
-2-norm of the error: 3.3741876034138713e-12
+Update to intial guess is successful, final residual (solution plus update) 2.7982029274943434e-16
+FGMRES: init nrm: 6.3358489570364428e-14 final nrm: 8.6147541226917709e-24 iter: 2
+FGMRES Effective Stability: 1.4142136126095097e+00
+The system scalling measure is 1.5760760429078594e+14
+2-norm of the error: 3.0689475631027027e-10
 
 
 
 ========================================================================================================================
 Processing System 4 (ID: 05)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_05.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_05.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_05.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_05.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 4: Generating the RHS.
 DEBUG: System 4: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -130,27 +130,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.6735362178519924e+00
+The growth factor is computed as 3.3094948671354310e+01
 CuSolverRf solve status: 0
-2-norm of the error: 1.4460548563823065e-04
-	2-Norm of the residual: 1.7367224169417552e-15
+2-norm of the error: 6.1259476941864533e-05
+	2-Norm of the residual: 7.8034246158141219e-14
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 4.1970451979555720e-16
-FGMRES: init nrm: 1.7367224169417552e-15 final nrm: 3.0832660726914019e-27 iter: 2
-FGMRES Effective Stability: 1.4142133411216311e+00
-The system scalling measure is 2.4108934995641085e+15
-2-norm of the error: 1.2127316527060734e-11
+Update to intial guess is successful, final residual (solution plus update) 1.3941159470172991e-16
+FGMRES: init nrm: 7.8034246158141219e-14 final nrm: 2.5155981153451291e-25 iter: 2
+FGMRES Effective Stability: 1.4142134960187784e+00
+The system scalling measure is 7.0040021172250712e+14
+2-norm of the error: 2.9711993377902652e-11
 
 
 
 ========================================================================================================================
 Processing System 5 (ID: 06)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_06.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_06.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_06.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_06.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 5: Generating the RHS.
 DEBUG: System 5: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -158,27 +158,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.0000000000000000e+00
+The growth factor is computed as 1.5543939362612412e+02
 CuSolverRf solve status: 0
-2-norm of the error: 3.6339686112095639e-03
-	2-Norm of the residual: 3.1652963563522778e-16
+2-norm of the error: 6.5630882225399100e-04
+	2-Norm of the residual: 1.8518487772159962e-13
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 8.8747618949154416e-17
-FGMRES: init nrm: 3.1652963563522778e-16 final nrm: 2.6834796948196727e-26 iter: 2
-FGMRES Effective Stability: 1.4142135672608966e+00
-The system scalling measure is 6.3011796896749530e+15
-2-norm of the error: 1.5660810996893317e-11
+Update to intial guess is successful, final residual (solution plus update) 1.2443867982321822e-16
+FGMRES: init nrm: 1.8518487772159962e-13 final nrm: 1.5579305604140783e-24 iter: 2
+FGMRES Effective Stability: 1.4142142876221193e+00
+The system scalling measure is 1.6931656793063075e+15
+2-norm of the error: 1.3803543341255317e-10
 
 
 
 ========================================================================================================================
 Processing System 6 (ID: 07)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_07.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_07.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_07.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_07.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 6: Generating the RHS.
 DEBUG: System 6: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -186,27 +186,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 9.9999999999999978e-01
+The growth factor is computed as 7.8613645773991620e+03
 CuSolverRf solve status: 0
-2-norm of the error: 4.6672318107788269e-03
-	2-Norm of the residual: 2.5932946031600399e-16
+2-norm of the error: 3.5407500084836112e-02
+	2-Norm of the residual: 1.4485579513278442e-11
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.5649065377761285e-16
-FGMRES: init nrm: 2.5932946031600399e-16 final nrm: 1.0014102182324731e-27 iter: 2
-FGMRES Effective Stability: 1.4142134987309485e+00
-The system scalling measure is 3.7330834293144147e+17
-2-norm of the error: 3.7783495552810728e-11
+Update to intial guess is successful, final residual (solution plus update) 1.4174719011892933e-16
+FGMRES: init nrm: 1.4485579513278442e-11 final nrm: 9.6104938738497282e-24 iter: 2
+FGMRES Effective Stability: 1.4142135570867309e+00
+The system scalling measure is 3.9891846785413375e+15
+2-norm of the error: 6.9960931597883922e-11
 
 
 
 ========================================================================================================================
 Processing System 7 (ID: 08)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_08.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_08.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_08.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_08.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 7: Generating the RHS.
 DEBUG: System 7: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -214,27 +214,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 3.5532322762319080e+00
+The growth factor is computed as 4.9106168551625851e+03
 CuSolverRf solve status: 0
-2-norm of the error: 1.1725398584279054e+00
-	2-Norm of the residual: 9.2343148636584764e-15
+2-norm of the error: 1.9209455840755688e-01
+	2-Norm of the residual: 2.0269483679745469e-11
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 8.3942263272476814e-18
-FGMRES: init nrm: 9.2343148636584764e-15 final nrm: 5.0960482195374769e-26 iter: 3
-FGMRES Effective Stability: 1.4142134606914400e+00
-The system scalling measure is 1.7757209702117325e+18
-2-norm of the error: 3.6622852006070889e-11
+Update to intial guess is successful, final residual (solution plus update) 8.9789495998478916e-17
+FGMRES: init nrm: 2.0269483679745469e-11 final nrm: 5.2954947997178279e-25 iter: 2
+FGMRES Effective Stability: 1.4142146634577026e+00
+The system scalling measure is 1.4215415243381614e+16
+2-norm of the error: 9.3531895831197829e-11
 
 
 
 ========================================================================================================================
 Processing System 8 (ID: 09)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_09.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_09.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_09.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_09.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 8: Generating the RHS.
 DEBUG: System 8: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -242,27 +242,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 2.2129684378188557e+01
+The growth factor is computed as 7.6879489158635197e+03
 CuSolverRf solve status: 0
-2-norm of the error: 1.4077588127444013e+04
-	2-Norm of the residual: 9.2155753504611094e-14
+2-norm of the error: 1.5797611586843834e+00
+	2-Norm of the residual: 4.6419757408883049e-11
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.4759817751732763e-16
-FGMRES: init nrm: 9.2155753504611094e-14 final nrm: 2.0217884302401423e-23 iter: 3
-FGMRES Effective Stability: 1.4142127637728872e+00
-The system scalling measure is 2.9309861146700982e+20
-2-norm of the error: 2.3729116814008662e-09
+Update to intial guess is successful, final residual (solution plus update) 5.6551236347603998e-17
+FGMRES: init nrm: 4.6419757408883049e-11 final nrm: 1.8527703804702209e-22 iter: 4
+FGMRES Effective Stability: 1.4144895224577234e+00
+The system scalling measure is 6.3038076629071176e+16
+2-norm of the error: 2.6208986737125156e-10
 
 
 
 ========================================================================================================================
 Processing System 9 (ID: 10)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_10.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_10.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_10.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_10.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 9: Generating the RHS.
 DEBUG: System 9: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -270,27 +270,27 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 3.6032106313932570e+00
+The growth factor is computed as 3.9897303320998777e+04
 CuSolverRf solve status: 0
-2-norm of the error: 1.4334721389294941e+07
-	2-Norm of the residual: 6.2141405614588116e-15
+2-norm of the error: 2.3686643940706853e+00
+	2-Norm of the residual: 5.7394599159169732e-11
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.1839504072141829e-16
-FGMRES: init nrm: 6.2141405614588116e-15 final nrm: 2.0178071227914382e-23 iter: 8
-FGMRES Effective Stability: 1.4211662929710995e+00
-The system scalling measure is 1.9590553076546650e+23
-2-norm of the error: 7.5364649756632794e-05
+Update to intial guess is successful, final residual (solution plus update) 9.0810673043656489e-17
+FGMRES: init nrm: 5.7394599159169732e-11 final nrm: 2.0556035115618523e-23 iter: 3
+FGMRES Effective Stability: 1.4143857004076630e+00
+The system scalling measure is 6.2403740867415720e+16
+2-norm of the error: 4.5471909264344670e-11
 
 
 
 ========================================================================================================================
 Processing System 10 (ID: 11)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_11.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_11.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_11.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_11.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 10: Generating the RHS.
 DEBUG: System 10: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -298,66 +298,55 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 4.4669747393064476e+00
+The growth factor is computed as 1.5852780247079593e+05
 CuSolverRf solve status: 0
-2-norm of the error: 6.7935085513672789e+02
-	2-Norm of the residual: 4.5908937691960309e-15
+2-norm of the error: 1.4214717505142854e+01
+	2-Norm of the residual: 9.5465447416846820e-10
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.3645658154306232e-16
-FGMRES: init nrm: 4.5908937691960309e-15 final nrm: 1.4820793665855389e-25 iter: 4
-FGMRES Effective Stability: 1.4142092118765603e+00
-The system scalling measure is 1.3730912244704585e+21
-2-norm of the error: 3.6206050638127263e-10
+Update to intial guess is successful, final residual (solution plus update) 1.0239150640527017e-16
+FGMRES: init nrm: 9.5465447416846820e-10 final nrm: 5.0074376648809984e-23 iter: 4
+FGMRES Effective Stability: 1.4145774914476508e+00
+The system scalling measure is 7.5824978629980576e+16
+2-norm of the error: 3.6849716276651123e-10
 
 
 
 ========================================================================================================================
 Processing System 11 (ID: 12)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_12.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_12.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_12.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_12.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 11: Generating the RHS.
 DEBUG: System 11: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 10
-CuSolverRf refactorization status: 10
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as inf
-
- 	 !!! ALERT !!! CuSolverRf has crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
- 
-KLU analysis status (redo): 0
-KLU factorization status (redo): 0
-KLU solve status (redo): 0
-Reciprocal Condition Number of System: 3.3702254170015171e-08
-	2-Norm of the residual: 2.1344738331669108e-16
-2-norm of the error: 2.6816893899997526e-11
-The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 0
+The growth factor is computed as 3.5707260772069060e+05
 CuSolverRf solve status: 0
-2-norm of the error: 4.0039578476183735e-11
-	2-Norm of the residual: 1.7691490743012497e-16
+2-norm of the error: 3.4730632208103209e+01
+	2-Norm of the residual: 6.0021260975258468e-10
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is not successful, final residual greater than initial residual 1.9377297538105489e-16
-FGMRES: init nrm: 1.7691490743012497e-16 final nrm: 2.2229379391941969e-27 iter: 1
-FGMRES Effective Stability: 1.2133961938036752e-11
-The system scalling measure is 6.1561766165378971e+09
-2-norm of the error: 4.0039578476183735e-11
+Update to intial guess is successful, final residual (solution plus update) 1.4091367774133253e-16
+FGMRES: init nrm: 6.0021260975258468e-10 final nrm: 8.5357750126240643e-24 iter: 4
+FGMRES Effective Stability: 1.4193228415454311e+00
+The system scalling measure is 1.8619237987734797e+17
+2-norm of the error: 4.8988305891033001e-10
 
 
 
 ========================================================================================================================
 Processing System 12 (ID: 13)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_13.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_13.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_13.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_13.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 12: Generating the RHS.
 DEBUG: System 12: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -365,55 +354,66 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.0000000000000000e+00
+The growth factor is computed as 1.0250036441118526e+06
 CuSolverRf solve status: 0
-2-norm of the error: 6.8333567173887930e-03
-	2-Norm of the residual: 2.1989974478547950e-15
+2-norm of the error: 2.6352989790739809e+02
+	2-Norm of the residual: 9.0659163470170824e-10
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.1088106848656861e-25
-FGMRES: init nrm: 2.1989974478547950e-15 final nrm: 1.7154719848610642e-28 iter: 2
-FGMRES Effective Stability: 1.4142135623831305e+00
-The system scalling measure is 3.7301370765236499e+17
-2-norm of the error: 8.2480868970343665e-12
+Update to intial guess is successful, final residual (solution plus update) 1.2426484434290540e-16
+FGMRES: init nrm: 9.0659163470170824e-10 final nrm: 1.3244899704119676e-23 iter: 4
+FGMRES Effective Stability: 1.4432884814294167e+00
+The system scalling measure is 4.6001199141315968e+17
+2-norm of the error: 3.4647819174242089e-10
 
 
 
 ========================================================================================================================
 Processing System 13 (ID: 14)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_14.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_14.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_14.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_14.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 13: Generating the RHS.
 DEBUG: System 13: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 0
-CuSolverRf refactorization status: 0
+The error due to cusolverRfRefactor: 10
+CuSolverRf refactorization status: 10
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.0000000017953299e+00
+The growth factor is computed as 4.7978520246317757e+01
+
+ 	 !!! ALERT !!! CuSolverRf has crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
+ 
+KLU analysis status (redo): 0
+KLU factorization status (redo): 0
+KLU solve status (redo): 0
+Reciprocal Condition Number of System: 8.1616762573046767e-20
+	2-Norm of the residual: 1.9506471739932145e-16
+2-norm of the error: 3.6313852364761460e-10
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
 CuSolverRf solve status: 0
-2-norm of the error: 7.3748075972954430e-06
-	2-Norm of the residual: 1.9528576271623525e-15
+2-norm of the error: 8.5535714824128871e-05
+	2-Norm of the residual: 2.3947258101848027e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.8456242688491777e-17
-FGMRES: init nrm: 1.9528576271623525e-15 final nrm: 1.1039993149272139e-26 iter: 1
-FGMRES Effective Stability: 5.6514748590515001e-12
-The system scalling measure is 9.5797127369052100e+14
-2-norm of the error: 1.7935584944620063e-11
+Update to intial guess is successful, final residual (solution plus update) 1.5007121457922893e-16
+FGMRES: init nrm: 2.3947258101848027e-16 final nrm: 1.7324021061609021e-26 iter: 2
+FGMRES Effective Stability: 1.4142135654374839e+00
+The system scalling measure is 1.5914525850730214e+18
+2-norm of the error: 3.9706106153005354e-10
 
 
 
 ========================================================================================================================
 Processing System 14 (ID: 15)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_15.mtx
+Reading: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_15.mtx
 ========================================================================================================================
 
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_15.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_15.mtx
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric?n 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 14: Generating the RHS.
 DEBUG: System 14: Using CuSolverRf refactorization and FGMRES.
 The error after cusolverRfResestValues: 0
@@ -421,128 +421,16 @@ The error due to cusolverRfRefactor: 0
 CuSolverRf refactorization status: 0
 KLU refactorization status: 0
 Extracting L and U factors 
-The growth factor is computed as 1.5787754913684500e+00
+The growth factor is computed as 1.0000000000000000e+00
 CuSolverRf solve status: 0
-2-norm of the error: 1.4191158497694855e-06
-	2-Norm of the residual: 6.7704541250530436e-16
+2-norm of the error: 8.9898018556347666e-04
+	2-Norm of the residual: 3.4529088790946991e-16
 DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.4288264928635258e-16
-FGMRES: init nrm: 6.7704541250530436e-16 final nrm: 1.4661125109554234e-25 iter: 1
-FGMRES Effective Stability: 2.1655608622451370e-10
-The system scalling measure is 5.0030964149190269e+14
-2-norm of the error: 1.6486498609068889e-11
-
-
-
-========================================================================================================================
-Processing System 15 (ID: 16)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_16.mtx
-========================================================================================================================
-
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_16.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 15: Generating the RHS.
-DEBUG: System 15: Using CuSolverRf refactorization and FGMRES.
-The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 0
-CuSolverRf refactorization status: 0
-KLU refactorization status: 0
-Extracting L and U factors 
-The growth factor is computed as 1.1211675856815054e+03
-CuSolverRf solve status: 0
-2-norm of the error: 1.1221409195194005e-06
-	2-Norm of the residual: 3.4527167350453208e-13
-DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.7086784976432829e-16
-FGMRES: init nrm: 3.4527167350453208e-13 final nrm: 1.9800419227007637e-24 iter: 1
-FGMRES Effective Stability: 3.5351552734062572e-09
-The system scalling measure is 8.2591778870581422e+13
-2-norm of the error: 1.0504551394637268e-11
-
-
-
-========================================================================================================================
-Processing System 16 (ID: 17)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_17.mtx
-========================================================================================================================
-
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_17.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 16: Generating the RHS.
-DEBUG: System 16: Using CuSolverRf refactorization and FGMRES.
-The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 0
-CuSolverRf refactorization status: 0
-KLU refactorization status: 0
-Extracting L and U factors 
-The growth factor is computed as 1.4651815287654816e+04
-CuSolverRf solve status: 0
-2-norm of the error: 1.4812703683592032e-06
-	2-Norm of the residual: 1.4503702187212522e-12
-DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.7294752841988812e-16
-FGMRES: init nrm: 1.4503702187212522e-12 final nrm: 1.3363526388943976e-23 iter: 1
-FGMRES Effective Stability: 8.4481280737047258e-09
-The system scalling measure is 1.2915172875493661e+14
-2-norm of the error: 5.3375093293412680e-12
-
-
-
-========================================================================================================================
-Processing System 17 (ID: 18)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_18.mtx
-========================================================================================================================
-
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_18.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 17: Generating the RHS.
-DEBUG: System 17: Using CuSolverRf refactorization and FGMRES.
-The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 0
-CuSolverRf refactorization status: 0
-KLU refactorization status: 0
-Extracting L and U factors 
-The growth factor is computed as 2.8368214889626441e+04
-CuSolverRf solve status: 0
-2-norm of the error: 3.0447597556094063e-02
-	2-Norm of the residual: 6.3715588043098896e-09
-DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 1.2702045415534201e-16
-FGMRES: init nrm: 6.3715588043098896e-09 final nrm: 1.1023487193348177e-22 iter: 3
-FGMRES Effective Stability: 1.6319886325306459e+00
-The system scalling measure is 2.3588962370366588e+14
-2-norm of the error: 1.1520063591324962e-10
-
-
-
-========================================================================================================================
-Processing System 18 (ID: 19)
-Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_19.mtx
-========================================================================================================================
-
-Successfully opened matrix file: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_19.mtx
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric?n 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 18: Generating the RHS.
-DEBUG: System 18: Using CuSolverRf refactorization and FGMRES.
-The error after cusolverRfResestValues: 0
-The error due to cusolverRfRefactor: 0
-CuSolverRf refactorization status: 0
-KLU refactorization status: 0
-Extracting L and U factors 
-The growth factor is computed as 8.0389647539035694e+04
-CuSolverRf solve status: 0
-2-norm of the error: 2.8596477419862620e-01
-	2-Norm of the residual: 1.4668237791038609e-08
-DEBUG: Solving error equation with FGMRES.
-Update to intial guess is successful, final residual (solution plus update) 2.5827621714891200e-16
-FGMRES: init nrm: 1.4668237791038609e-08 final nrm: 5.4763361329898624e-22 iter: 4
-FGMRES Effective Stability: 6.7160094691846366e+00
-The system scalling measure is 4.7651446748107369e+14
-2-norm of the error: 1.5044755521768572e-11
+Update to intial guess is successful, final residual (solution plus update) 4.1398349387935692e-17
+FGMRES: init nrm: 3.4529088790946991e-16 final nrm: 5.6313956726012045e-25 iter: 2
+FGMRES Effective Stability: 1.4142136172541151e+00
+The system scalling measure is 1.5277859239691293e+19
+2-norm of the error: 1.9679922569004540e-08
 
 --- Cleaning up ReSolve objects ---
 Cleanup complete. Program exiting.
