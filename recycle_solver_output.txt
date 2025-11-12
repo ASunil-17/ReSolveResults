@@ -1,0 +1,76 @@
+Matrix base path: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_]
+RHS base path:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_]
+Total number of systems to process: 5
+Output directory specified: [/home/axs2061/ACOPF_RESULTS/HybridSolverOutput]
+Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
+
+
+
+========================================================================================================================
+Processing System 0 (ID: 01)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_01.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: System 0: Performing initial KLU factorization and solve.
+KLU analysis status: 0
+KLU factorization status: 0
+KLU solve status: 0
+	2-Norm of the residual: 1.8013738304821893e-14
+Computing pattern of A*N
+DEBUG: Performing BMM
+DEBUG: Constructing patt_A2_
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 1.8013738304821893e-14 final nrm: 5.9911835472607845e-15 iter: 1
+FGMRES Effective Stability: 1.6897051711417615e-11
+
+
+
+========================================================================================================================
+Processing System 1 (ID: 02)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_02.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+	2-Norm of the residual: 1.0000000000000000e+00
+DEBUG: System 1: Using SAM and FGMRES.
+SAM Computation step #1: Pre-processing
+DEBUG: patt_A2_ NNZ: 4896500
+DEBUG: patt_A2_ Rows: 238072
+DEBUG: Extracting row and col inds for patt_A2_
+DEBUG: Done extractig row and col inds for patt_A2_
+DEBUG: Finding the maximum row and col inds
+DEBUG: maxSk 106
+DEBUG: maxRk 404
+SAM Computation step #2: Compute the mapping
+DEBUG COL 0: Rk_size=5, Sk_size=2, A_LS NNZ=2
+
+DEBUG: Inspecting A_LS and LS_RHS for column k=0
+DEBUG: Rk_size (M) = 5, Sk_size (N) = 2
+--- A_LS Matrix (Column-Major) ---
+Row 0: 8.9857928182653160e-03 1.0000000000000000e-02 
+Row 1: 0.0000000000000000e+00 1.0000000000000000e-02 
+Row 2: 0.0000000000000000e+00 -1.0000000000000000e-02 
+Row 3: 0.0000000000000000e+00 -1.0000000000000000e+00 
+Row 4: 1.0000000000000000e-02 -0.0000000000000000e+00 
+--- LS_RHS Vector ---
+1.0000000000000000e+00
+0.0000000000000000e+00
+0.0000000000000000e+00
+0.0000000000000000e+00
+0.0000000000000000e+00
+-----------------------------------
+DEBUG COL 1: Rk_size=5, Sk_size=2, A_LS NNZ=2
+DEBUG COL 2: Rk_size=5, Sk_size=2, A_LS NNZ=2
+DEBUG COL 3: Rk_size=5, Sk_size=2, A_LS NNZ=2
+DEBUG COL 4: Rk_size=5, Sk_size=2, A_LS NNZ=2
+N_out computed successfully, applying matvec test
+test_vec norm (Ak*Nk*rhs) 7.7859462293716573e+132
+test_vec norm (A0*rhs) 3.2891086337547599e+03
+recycle_solver.exe: /home/axs2061/ReSolveDir/ReSolve/resolve/GramSchmidt.cpp:225: int ReSolve::GramSchmidt::orthogonalize(ReSolve::index_type, ReSolve::vector::Vector*, ReSolve::real_type*, ReSolve::index_type): Assertion `0 && "Gram-Schmidt failed, vector with ZERO norm\n"' failed.

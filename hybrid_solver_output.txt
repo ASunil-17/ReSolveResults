@@ -1,7 +1,546 @@
 Matrix base path: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_]
-Total number of systems to process: 0
-Output directory specified: [5]
-Output directory already exists: 5
+RHS base path:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_]
+Total number of systems to process: 19
+Output directory specified: [/home/axs2061/ACOPF_RESULTS/HybridSolverOutput]
+Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
+
+
+
+========================================================================================================================
+Processing System 0 (ID: 01)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_01.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 0 and the RHS.
+DEBUG: System 0: Performing initial KLU factorization and solve.
+KLU analysis status: 0
+KLU factorization status: 0
+KLU solve status: 0
+	2-Norm of the residual: 4.7568801059785031e+01
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 4.4058120221172875e+08
+The system scalling measure is 2.2784367527319770e+15
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 4.7568801059785031e+01 final nrm: 4.5337614506144282e-14 iter: 1
+FGMRES Effective Stability: 8.7725203385350637e-16
+
+
+
+========================================================================================================================
+Processing System 1 (ID: 02)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_02.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 1 and the RHS.
+DEBUG: System 1: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 1 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 2.8767848461975955e-12
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 2.8767848461975955e-12 final nrm: 2.8767848461975955e-12 iter: 0
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 6.9790732301853115e-03
+The system scalling measure is 5.5649728722494856e+16
+FGMRES Effective Stability: 0.0000000000000000e+00
+
+
+
+========================================================================================================================
+Processing System 2 (ID: 03)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_03.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_03.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 2 and the RHS.
+DEBUG: System 2: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 2 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 2.3949445052976856e-13
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 2.3949445052976856e-13 final nrm: 1.0355895936380837e-14 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 2.5378391822455706e+04
+The system scalling measure is 2.6740369577215814e+11
+FGMRES Effective Stability: 5.8570823625752250e-12
+
+
+
+========================================================================================================================
+Processing System 3 (ID: 04)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_04.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_04.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 3 and the RHS.
+DEBUG: System 3: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 3 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 1.6807735589505237e-10
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 1.6807735589505237e-10 final nrm: 1.5460737318151873e-14 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 2.3811219130749963e-05
+The system scalling measure is 1.6221539039103525e+12
+FGMRES Effective Stability: 1.1598540316255024e-04
+
+
+
+========================================================================================================================
+Processing System 4 (ID: 05)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_05.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_05.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 4 and the RHS.
+DEBUG: System 4: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 4 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 4.7688071033580129e-12
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 4.7688071033580129e-12 final nrm: 8.6187081361450385e-14 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 6.3505635373989120e+05
+The system scalling measure is 9.1237102212974899e+10
+FGMRES Effective Stability: 2.3922812474964968e-10
+
+
+
+========================================================================================================================
+Processing System 5 (ID: 06)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_06.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_06.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 5 and the RHS.
+DEBUG: System 5: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 5 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 5.4298129048663800e-11
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 5.4298129048663800e-11 final nrm: 4.0333043606048234e-13 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 7.2715260354001251e-03
+The system scalling measure is 1.9334017105488566e+14
+FGMRES Effective Stability: 2.2821162338542346e-11
+
+
+
+========================================================================================================================
+Processing System 6 (ID: 07)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_07.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_07.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 6 and the RHS.
+DEBUG: System 6: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 6 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 1.5274053159283984e-10
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 1.5274053159283984e-10 final nrm: 6.1219758844702153e-15 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 3.8398174235132799e+07
+The system scalling measure is 3.8087903324698083e+11
+FGMRES Effective Stability: 1.2202290876905686e-12
+
+
+
+========================================================================================================================
+Processing System 7 (ID: 08)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_08.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_08.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 7 and the RHS.
+DEBUG: System 7: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 7 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 2.2030620016475976e-06
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 2.2030620016475976e-06 final nrm: 4.0372005781692255e-12 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 4.6436850225860298e-04
+The system scalling measure is 7.6169845793525950e+15
+FGMRES Effective Stability: 1.5954395120630283e-09
+
+
+
+========================================================================================================================
+Processing System 8 (ID: 09)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_09.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_09.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 8 and the RHS.
+DEBUG: System 8: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 8 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 1.5211515679226509e-06
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 1.5211515679226509e-06 final nrm: 4.9069920819501622e-13 iter: 2
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 7.9396629440036346e+05
+The system scalling measure is 3.8388117905703058e+11
+FGMRES Effective Stability: 1.4142137692877772e+00
+
+
+
+========================================================================================================================
+Processing System 9 (ID: 10)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_10.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_10.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 9 and the RHS.
+DEBUG: System 9: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 9 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 6.8331779834937739e-02
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 6.8331779834937739e-02 final nrm: 6.9125340902185634e-13 iter: 2
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 6.3489488370856493e-05
+The system scalling measure is 2.3978129971951086e+13
+FGMRES Effective Stability: 1.4128265061238641e+00
+
+
+
+========================================================================================================================
+Processing System 10 (ID: 11)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_11.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_11.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 10 and the RHS.
+DEBUG: System 10: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 10 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 8.2994499601199778e-05
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 8.2994499601199778e-05 final nrm: 1.0954472324016791e-13 iter: 2
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 4.8669293288624909e+05
+The system scalling measure is 1.7283948786950261e+12
+FGMRES Effective Stability: 1.4142163362925266e+00
+
+
+
+========================================================================================================================
+Processing System 11 (ID: 12)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_12.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_12.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 11 and the RHS.
+DEBUG: System 11: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 10
+CuSolverRf refactorization status: 10
+DEBUG: Scaling System 11 and the RHS.
+
+ 	 !!! ALERT !!! CuSolverRf has crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
+ 
+KLU analysis status (redo): 0
+KLU factorization status (redo): 0
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf solve status: 0
+	2-Norm of the residual: 2.7638743182243698e-11
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 2.7638743182243698e-11 final nrm: 2.7638743182243698e-11 iter: 0
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 3.7480264369704927e-05
+The system scalling measure is 7.0422807774329773e+11
+FGMRES Effective Stability: 0.0000000000000000e+00
+
+
+
+========================================================================================================================
+Processing System 12 (ID: 13)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_13.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_13.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 12 and the RHS.
+DEBUG: System 12: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 12 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 2.2794776225211538e-10
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 2.2794776225211538e-10 final nrm: 7.4120633982674104e-16 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 5.1425421125988345e+04
+The system scalling measure is 4.6990198537256250e+11
+FGMRES Effective Stability: 3.2925604236140392e-11
+
+
+
+========================================================================================================================
+Processing System 13 (ID: 14)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_14.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_14.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 13 and the RHS.
+DEBUG: System 13: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 13 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 8.0824308387654513e-09
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 8.0824308387654513e-09 final nrm: 3.5153298887605880e-13 iter: 1
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 1.6853607710139558e-05
+The system scalling measure is 1.6001190525579447e+13
+FGMRES Effective Stability: 4.2052907843695012e-12
+
+
+
+========================================================================================================================
+Processing System 14 (ID: 15)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_15.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_15.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 14 and the RHS.
+DEBUG: System 14: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 14 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 3.1781593342829897e-09
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 3.1781593342829897e-09 final nrm: 1.0896009284478397e-13 iter: 2
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 1.1062400084961297e+07
+The system scalling measure is 4.7970185825492487e+11
+FGMRES Effective Stability: 1.4142135621837415e+00
+
+
+
+========================================================================================================================
+Processing System 15 (ID: 16)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_16.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_16.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 15 and the RHS.
+DEBUG: System 15: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 15 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 2.6235094559444196e-02
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 2.6235094559444196e-02 final nrm: 1.2485799067578066e-11 iter: 2
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 1.5953489178707013e-04
+The system scalling measure is 1.1683639064278872e+14
+FGMRES Effective Stability: 1.4099953196938801e+00
+
+
+
+========================================================================================================================
+Processing System 16 (ID: 17)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_17.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_17.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 16 and the RHS.
+DEBUG: System 16: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 16 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 1.0423517626422321e-04
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 1.0423517626422321e-04 final nrm: 6.6946508485240639e-12 iter: 3
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 1.8656889064872649e+08
+The system scalling measure is 3.7868191901387534e+12
+FGMRES Effective Stability: 1.4142400899147718e+00
+
+
+
+========================================================================================================================
+Processing System 17 (ID: 18)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_18.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_18.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 17 and the RHS.
+DEBUG: System 17: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 17 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 1.1930034082274302e-04
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 1.1930034082274302e-04 final nrm: 7.6286016305015347e-14 iter: 2
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 2.7184498902272158e-02
+The system scalling measure is 3.2871330399784806e+17
+FGMRES Effective Stability: 1.4142142052381719e+00
+
+
+
+========================================================================================================================
+Processing System 18 (ID: 19)
+Reading: /home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_19.mtx
+========================================================================================================================
+
+Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_19.mtx]
+CSR matrix loaded. Expanded NNZ: 1209368
+DEBUG: Scaling System 18 and the RHS.
+DEBUG: System 18: Using CuSolverRf refactorization and FGMRES.
+The error after cusolverRfResestValues: 0
+The error due to cusolverRfRefactor: 0
+CuSolverRf refactorization status: 0
+DEBUG: Scaling System 18 and the RHS.
+CuSolverRf solve status: 0
+	2-Norm of the residual: 9.5686264815547940e-05
+DEBUG: Solving error equation with FGMRES. Update solution based on reliability.
+FGMRES: init nrm: 9.5686264815547940e-05 final nrm: 6.4268692778423489e-12 iter: 4
+DEBUG: Extracting Data from HOST
+DEBUG: Modifying HOST data
+DEBUG: Copying data from
+DEBUG: Computing matvec
+DEBUG: The max_abs value is 2.6483540905885367e+09
+The system scalling measure is 2.8501139226298895e+13
+FGMRES Effective Stability: 1.4142974914890967e+00
 
 --- Cleaning up ReSolve objects ---
-Cleanup complete. Program exiting.
