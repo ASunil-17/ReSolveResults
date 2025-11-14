@@ -73,7 +73,7 @@ fclose(fid_log);
 
 % Iterate through all possible System IDs (0 to 51, based on your loop range) 
 % and write the results to the CSV file
-for i = 0:19
+for i = 0:15
     iter_val = 'N/A';
     scaling_val = 'N/A'; 
     
