@@ -1,6 +1,6 @@
-Matrix base path: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_]
-RHS base path:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_]
-Total number of systems to process: 19
+Matrix base path: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_]
+RHS base path:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_]
+Total number of systems to process: 15
 Output directory specified: [/home/axs2061/ACOPF_RESULTS/HybridSolverOutput]
 Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
 
@@ -8,18 +8,18 @@ Output directory already exists: /home/axs2061/ACOPF_RESULTS/HybridSolverOutput
 
 ========================================================================================================================
 Processing System 0 (ID: 01)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_01.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_01.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_01.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_01.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 0: Performing initial KLU factorization and solve.
 KLU analysis status: 0
-Profiler: KLU->setup() and KLU->analyze() costs in ms: 70.8706
+Profiler: KLU->setup() and KLU->analyze() costs in ms: 783.033
 KLU factorization status: 0
 KLU solve status: 0
-Relative residual after KLU->solve(): 5.31652e-13
+Relative residual after KLU->solve(): 3.78047e-12
 DEBUG: CSR conversion + CuSolverRf setup complete! 
 FGMRES: init nrm: 0.0000000000000000e+00 final nrm: 0.0000000000000000e+00 iter: 0
 
@@ -27,19 +27,19 @@ FGMRES: init nrm: 0.0000000000000000e+00 final nrm: 0.0000000000000000e+00 iter:
 
 ========================================================================================================================
 Processing System 1 (ID: 02)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_02.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_02.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_02.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_02.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 1: Performing initial KLU factorization and solve.
 KLU analysis status: 0
-Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.1465935600000000e+02
+Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.1725804380000000e+03
 KLU factorization status: 0
 KLU solve status: 0
-Relative residual after KLU->solve(): 6.1746914313668479e-05
-Profiler: CuSolverRf->setup() cost in ms: 2.1901235961914062e+02
+Relative residual after KLU->solve(): 9.6818959297047406e-12
+Profiler: CuSolverRf->setup() cost in ms: 1.7564317626953125e+03
 DEBUG: CSR conversion + CuSolverRf setup complete! 
 FGMRES: init nrm: 0.0000000000000000e+00 final nrm: 0.0000000000000000e+00 iter: 0
 
@@ -47,279 +47,209 @@ FGMRES: init nrm: 0.0000000000000000e+00 final nrm: 0.0000000000000000e+00 iter:
 
 ========================================================================================================================
 Processing System 2 (ID: 03)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_03.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_03.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_03.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_03.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 2: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 6.8138644618956588e-07
-FGMRES: init nrm: 6.8138644618956588e-07 final nrm: 1.3110517250433694e-16 iter: 2
+Relative residual after cuSolverRf->solve(): 1.3392920003621449e-08
+FGMRES: init nrm: 1.3392920003621449e-08 final nrm: 5.0869626659963637e-13 iter: 2
 
 
 
 ========================================================================================================================
 Processing System 3 (ID: 04)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_04.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_04.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_04.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_04.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 3: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 5.7287825694600430e-10
-FGMRES: init nrm: 5.7287825694600430e-10 final nrm: 1.7774315445519525e-15 iter: 1
+Relative residual after cuSolverRf->solve(): 2.4506557178318660e-09
+FGMRES: init nrm: 2.4506557178318660e-09 final nrm: 1.3155583609663201e-12 iter: 1
 
 
 
 ========================================================================================================================
 Processing System 4 (ID: 05)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_05.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_05.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_05.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_05.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 4: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.9819957295693687e-07
-FGMRES: init nrm: 1.9819957295693687e-07 final nrm: 1.9204840307338576e-14 iter: 2
+Relative residual after cuSolverRf->solve(): 1.4991468862086804e-07
+FGMRES: init nrm: 1.4991468862086804e-07 final nrm: 7.2332753625433436e-13 iter: 2
 
 
 
 ========================================================================================================================
 Processing System 5 (ID: 06)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_06.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_06.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_06.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_06.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 5: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.6875419198775421e-06
-FGMRES: init nrm: 1.6875419198775421e-06 final nrm: 2.6083445512318200e-13 iter: 1
+Relative residual after cuSolverRf->solve(): 3.7579548251023830e-08
+FGMRES: init nrm: 3.7579548251023830e-08 final nrm: 2.1870748002721661e-12 iter: 1
 
 
 
 ========================================================================================================================
 Processing System 6 (ID: 07)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_07.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_07.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_07.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_07.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 6: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 7.6800105456649825e-06
-FGMRES: init nrm: 7.6800105456649825e-06 final nrm: 1.4174089728278707e-12 iter: 2
+Relative residual after cuSolverRf->solve(): 3.2410322412836048e-06
+FGMRES: init nrm: 3.2410322412836048e-06 final nrm: 1.3740975439718225e-12 iter: 2
 
 
 
 ========================================================================================================================
 Processing System 7 (ID: 08)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_08.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_08.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_08.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_08.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 7: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.4234517761664358e-06
-FGMRES: init nrm: 1.4234517761664358e-06 final nrm: 4.7210706349419033e-13 iter: 1
+Relative residual after cuSolverRf->solve(): 8.6318298624708328e-06
+FGMRES: init nrm: 8.6318298624708328e-06 final nrm: 3.6286332566262664e-11 iter: 2
 
 
 
 ========================================================================================================================
 Processing System 8 (ID: 09)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_09.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_09.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_09.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_09.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 8: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.9469950655939378e+01
-FGMRES: init nrm: 1.9469950655939378e+01 final nrm: 1.0149551612480409e-11 iter: 2
+Relative residual after cuSolverRf->solve(): 1.1281622763165863e-05
+FGMRES: init nrm: 1.1281622763165863e-05 final nrm: 7.0360694750684575e-13 iter: 3
 
 
 
 ========================================================================================================================
 Processing System 9 (ID: 10)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_10.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_10.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_10.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_10.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 9: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.5020279414069405e+05
-FGMRES: init nrm: 1.5020279414069405e+05 final nrm: 1.3555263484423960e-11 iter: 4
+Relative residual after cuSolverRf->solve(): 1.4902174625785346e-05
+FGMRES: init nrm: 1.4902174625785346e-05 final nrm: 1.5152544993336208e-12 iter: 2
 
 
 
 ========================================================================================================================
 Processing System 10 (ID: 11)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_11.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_11.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_11.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_11.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 10: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 8.9304917245174821e+01
-FGMRES: init nrm: 8.9304917245174821e+01 final nrm: 1.7500208811599403e-12 iter: 3
+Relative residual after cuSolverRf->solve(): 1.4385083470073855e-06
+FGMRES: init nrm: 1.4385083470073855e-06 final nrm: 1.5288668676263513e-14 iter: 3
 
 
 
 ========================================================================================================================
 Processing System 11 (ID: 12)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_12.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_12.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_12.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_12.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 11: Using CuSolverRf refactorization and FGMRES.
-CuSolverRf refactorization status: 10
-
- 	 !!! ALERT !!! cuSolverRf crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
- 
-KLU analysis status (redo): 0
-Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.1148487500000000e+02
-KLU factorization status (redo): 0
-KLU solve status (redo): 0
-Relative residual after KLU->solve(): 2.3467501722846959e-13
-Profiler: CuSolverRf->setup() cost in ms: 2.1881916809082031e+02
+CuSolverRf refactorization status: 0
+CuSolverRf solve status: 0
+Relative residual after cuSolverRf->solve(): 3.0880307200744451e-04
+FGMRES: init nrm: 3.0880307200744451e-04 final nrm: 1.4110261550213210e-09 iter: 3
 
 
 
 ========================================================================================================================
 Processing System 12 (ID: 13)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_13.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_13.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_13.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_13.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 12: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 4.2169530166751440e-07
-FGMRES: init nrm: 4.2169530166751440e-07 final nrm: 3.1937900543011665e-16 iter: 2
+Relative residual after cuSolverRf->solve(): 2.3169771093322668e-04
+FGMRES: init nrm: 2.3169771093322668e-04 final nrm: 2.5859108779724469e-13 iter: 4
 
 
 
 ========================================================================================================================
 Processing System 13 (ID: 14)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_14.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_14.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_14.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_14.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 13: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 5.4541168702142448e-08
-FGMRES: init nrm: 5.4541168702142448e-08 final nrm: 2.7100741337532127e-13 iter: 1
+Relative residual after cuSolverRf->solve(): 2.5864303261564539e-02
+FGMRES: init nrm: 2.5864303261564539e-02 final nrm: 1.4122920485786069e-08 iter: 3
 
 
 
 ========================================================================================================================
 Processing System 14 (ID: 15)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_15.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_15.mtx]
+Reading matrix: [/home/axs2061/testcases/ACTIVSg70k_AC/matrix_ACTIVSg70k_AC_15.mtx]
+Reading RHS:    [/home/axs2061/testcases/ACTIVSg70k_AC/rhs_ACTIVSg70k_AC_15.mtx]
 ========================================================================================================================
 
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
+Finished reading the matrix and rhs, size: 1640411 x 1640411, nnz: 8343229, symmetric? 1, Expanded? 1
+CSR matrix loaded. Expanded NNZ: 8343229
 DEBUG: System 14: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 4.5344474006080834e-09
-FGMRES: init nrm: 4.5344474006080834e-09 final nrm: 4.7529171230284272e-15 iter: 2
-
-
-
-========================================================================================================================
-Processing System 15 (ID: 16)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_16.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_16.mtx]
-========================================================================================================================
-
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 15: Using CuSolverRf refactorization and FGMRES.
-CuSolverRf refactorization status: 0
-CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 4.3124327870080637e-09
-FGMRES: init nrm: 4.3124327870080637e-09 final nrm: 1.0072518846059868e-13 iter: 1
-
-
-
-========================================================================================================================
-Processing System 16 (ID: 17)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_17.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_17.mtx]
-========================================================================================================================
-
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 16: Using CuSolverRf refactorization and FGMRES.
-CuSolverRf refactorization status: 0
-CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.4384750447446559e-09
-FGMRES: init nrm: 1.4384750447446559e-09 final nrm: 1.4669856043074705e-14 iter: 2
-
-
-
-========================================================================================================================
-Processing System 17 (ID: 18)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_18.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_18.mtx]
-========================================================================================================================
-
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 17: Using CuSolverRf refactorization and FGMRES.
-CuSolverRf refactorization status: 0
-CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 5.6467657801553780e-05
-FGMRES: init nrm: 5.6467657801553780e-05 final nrm: 2.2827623116786052e-12 iter: 3
-
-
-
-========================================================================================================================
-Processing System 18 (ID: 19)
-Reading matrix: [/home/axs2061/testcases/ACTIVSg10k_AC/matrix_ACTIVSg10k_AC_19.mtx]
-Reading RHS:    [/home/axs2061/testcases/ACTIVSg10k_AC/rhs_ACTIVSg10k_AC_19.mtx]
-========================================================================================================================
-
-Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmetric? 1, Expanded? 1
-CSR matrix loaded. Expanded NNZ: 1209368
-DEBUG: System 18: Using CuSolverRf refactorization and FGMRES.
-CuSolverRf refactorization status: 0
-CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 5.5759152280865014e-05
-FGMRES: init nrm: 5.5759152280865014e-05 final nrm: 3.5659112943461612e-14 iter: 4
+Relative residual after cuSolverRf->solve(): 9.2917716086630148e-03
+FGMRES: init nrm: 9.2917716086630148e-03 final nrm: 1.5413020921198101e-10 iter: 10
 
 --- Cleaning up ReSolve objects ---
 Cleanup complete. Program exiting.
