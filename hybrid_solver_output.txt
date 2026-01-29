@@ -16,7 +16,7 @@ Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmet
 CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 0: Performing initial KLU factorization and solve.
 KLU analysis status: 0
-Profiler: KLU->setup() and KLU->analyze() costs in ms: 72.0649
+Profiler: KLU->setup() and KLU->analyze() costs in ms: 70.8706
 KLU factorization status: 0
 KLU solve status: 0
 Relative residual after KLU->solve(): 5.31652e-13
@@ -35,10 +35,11 @@ Finished reading the matrix and rhs, size: 238072 x 238072, nnz: 1209368, symmet
 CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 1: Performing initial KLU factorization and solve.
 KLU analysis status: 0
-Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.0952215099999999e+02
+Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.1465935600000000e+02
 KLU factorization status: 0
 KLU solve status: 0
 Relative residual after KLU->solve(): 6.1746914313668479e-05
+Profiler: CuSolverRf->setup() cost in ms: 2.1901235961914062e+02
 DEBUG: CSR conversion + CuSolverRf setup complete! 
 FGMRES: init nrm: 0.0000000000000000e+00 final nrm: 0.0000000000000000e+00 iter: 0
 
@@ -55,8 +56,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 2: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 9.7826522012069084e-09
-FGMRES: init nrm: 9.7826522012069084e-09 final nrm: 1.3333667450167683e-16 iter: 2
+Relative residual after cuSolverRf->solve(): 6.8138644618956588e-07
+FGMRES: init nrm: 6.8138644618956588e-07 final nrm: 1.3110517250433694e-16 iter: 2
 
 
 
@@ -71,8 +72,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 3: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.5384066631429328e-09
-FGMRES: init nrm: 1.5384066631429328e-09 final nrm: 3.0819176715725179e-15 iter: 1
+Relative residual after cuSolverRf->solve(): 5.7287825694600430e-10
+FGMRES: init nrm: 5.7287825694600430e-10 final nrm: 1.7774315445519525e-15 iter: 1
 
 
 
@@ -87,8 +88,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 4: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 3.8209044406345942e-07
-FGMRES: init nrm: 3.8209044406345942e-07 final nrm: 1.5849849170183227e-14 iter: 2
+Relative residual after cuSolverRf->solve(): 1.9819957295693687e-07
+FGMRES: init nrm: 1.9819957295693687e-07 final nrm: 1.9204840307338576e-14 iter: 2
 
 
 
@@ -103,8 +104,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 5: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 8.6534317822505400e-06
-FGMRES: init nrm: 8.6534317822505400e-06 final nrm: 2.5582802215112338e-13 iter: 1
+Relative residual after cuSolverRf->solve(): 1.6875419198775421e-06
+FGMRES: init nrm: 1.6875419198775421e-06 final nrm: 2.6083445512318200e-13 iter: 1
 
 
 
@@ -119,8 +120,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 6: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 2.3627539036311578e-04
-FGMRES: init nrm: 2.3627539036311578e-04 final nrm: 9.9438079325286718e-13 iter: 2
+Relative residual after cuSolverRf->solve(): 7.6800105456649825e-06
+FGMRES: init nrm: 7.6800105456649825e-06 final nrm: 1.4174089728278707e-12 iter: 2
 
 
 
@@ -135,8 +136,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 7: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 3.2145348562017079e-04
-FGMRES: init nrm: 3.2145348562017079e-04 final nrm: 2.2539453552848274e-13 iter: 2
+Relative residual after cuSolverRf->solve(): 1.4234517761664358e-06
+FGMRES: init nrm: 1.4234517761664358e-06 final nrm: 4.7210706349419033e-13 iter: 1
 
 
 
@@ -151,8 +152,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 8: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 7.6382874897982083e+02
-FGMRES: init nrm: 7.6382874897982083e+02 final nrm: 1.3116484952004909e-11 iter: 2
+Relative residual after cuSolverRf->solve(): 1.9469950655939378e+01
+FGMRES: init nrm: 1.9469950655939378e+01 final nrm: 1.0149551612480409e-11 iter: 2
 
 
 
@@ -167,8 +168,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 9: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 2.9184302788193913e+03
-FGMRES: init nrm: 2.9184302788193913e+03 final nrm: 1.4495784235261819e-11 iter: 4
+Relative residual after cuSolverRf->solve(): 1.5020279414069405e+05
+FGMRES: init nrm: 1.5020279414069405e+05 final nrm: 1.3555263484423960e-11 iter: 4
 
 
 
@@ -183,8 +184,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 10: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 3.7554020373192631e-01
-FGMRES: init nrm: 3.7554020373192631e-01 final nrm: 8.7921861337880374e-13 iter: 3
+Relative residual after cuSolverRf->solve(): 8.9304917245174821e+01
+FGMRES: init nrm: 8.9304917245174821e+01 final nrm: 1.7500208811599403e-12 iter: 3
 
 
 
@@ -202,10 +203,11 @@ CuSolverRf refactorization status: 10
  	 !!! ALERT !!! cuSolverRf crashed; redoing KLU symbolic and numeric factorization. !!! ALERT !!! 
  
 KLU analysis status (redo): 0
-Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.6124202800000000e+02
+Profiler: KLU->setup() and KLU->analyze() costs in ms: 1.1148487500000000e+02
 KLU factorization status (redo): 0
 KLU solve status (redo): 0
 Relative residual after KLU->solve(): 2.3467501722846959e-13
+Profiler: CuSolverRf->setup() cost in ms: 2.1881916809082031e+02
 
 
 
@@ -220,8 +222,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 12: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.4795695731338357e-06
-FGMRES: init nrm: 1.4795695731338357e-06 final nrm: 3.6613454549790594e-16 iter: 2
+Relative residual after cuSolverRf->solve(): 4.2169530166751440e-07
+FGMRES: init nrm: 4.2169530166751440e-07 final nrm: 3.1937900543011665e-16 iter: 2
 
 
 
@@ -236,8 +238,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 13: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 7.9758949488654307e-08
-FGMRES: init nrm: 7.9758949488654307e-08 final nrm: 1.8218988213376613e-13 iter: 1
+Relative residual after cuSolverRf->solve(): 5.4541168702142448e-08
+FGMRES: init nrm: 5.4541168702142448e-08 final nrm: 2.7100741337532127e-13 iter: 1
 
 
 
@@ -252,8 +254,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 14: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 3.7185920430222401e-09
-FGMRES: init nrm: 3.7185920430222401e-09 final nrm: 7.0337877709803583e-15 iter: 2
+Relative residual after cuSolverRf->solve(): 4.5344474006080834e-09
+FGMRES: init nrm: 4.5344474006080834e-09 final nrm: 4.7529171230284272e-15 iter: 2
 
 
 
@@ -268,8 +270,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 15: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 7.8673904865453025e-09
-FGMRES: init nrm: 7.8673904865453025e-09 final nrm: 1.0540953389408460e-13 iter: 1
+Relative residual after cuSolverRf->solve(): 4.3124327870080637e-09
+FGMRES: init nrm: 4.3124327870080637e-09 final nrm: 1.0072518846059868e-13 iter: 1
 
 
 
@@ -284,8 +286,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 16: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.0325108411143928e-09
-FGMRES: init nrm: 1.0325108411143928e-09 final nrm: 1.5015800120315286e-14 iter: 2
+Relative residual after cuSolverRf->solve(): 1.4384750447446559e-09
+FGMRES: init nrm: 1.4384750447446559e-09 final nrm: 1.4669856043074705e-14 iter: 2
 
 
 
@@ -300,8 +302,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 17: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 1.7963342295853745e-04
-FGMRES: init nrm: 1.7963342295853745e-04 final nrm: 2.1065774337634784e-12 iter: 3
+Relative residual after cuSolverRf->solve(): 5.6467657801553780e-05
+FGMRES: init nrm: 5.6467657801553780e-05 final nrm: 2.2827623116786052e-12 iter: 3
 
 
 
@@ -316,8 +318,8 @@ CSR matrix loaded. Expanded NNZ: 1209368
 DEBUG: System 18: Using CuSolverRf refactorization and FGMRES.
 CuSolverRf refactorization status: 0
 CuSolverRf solve status: 0
-Relative residual after cuSolverRf->solve(): 7.4794822899600934e-05
-FGMRES: init nrm: 7.4794822899600934e-05 final nrm: 3.3684163311496215e-14 iter: 4
+Relative residual after cuSolverRf->solve(): 5.5759152280865014e-05
+FGMRES: init nrm: 5.5759152280865014e-05 final nrm: 3.5659112943461612e-14 iter: 4
 
 --- Cleaning up ReSolve objects ---
 Cleanup complete. Program exiting.
