@@ -1,0 +1,1195 @@
+==PROF== Connected to process 2213735 (/scratch/axs2061/ReSolveDir/build/examples/hybrid_solver.exe)
+==PROF== Profiling "csrsv_by_columns_kernel_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_sw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_sw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_kernel_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Disconnected from process 2213735
+[2213735] hybrid_solver.exe@127.0.0.1
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 420, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       10.529664     10.529664     10.529664    
+    gpu__time_duration.sum                          usecond     36.800000     36.800000     36.800000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     47074.000000  47074.000000  47074.000000 
+    launch__grid_size                                           420.000000    420.000000    420.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     241726.000000 241726.000000 241726.000000
+    sm__cycles_active.avg                           cycle       21571.046296  21571.046296  21571.046296 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 425, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.159808     11.159808     11.159808    
+    gpu__time_duration.sum                          usecond     38.240000     38.240000     38.240000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     48985.000000  48985.000000  48985.000000 
+    launch__grid_size                                           425.000000    425.000000    425.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     256246.000000 256246.000000 256246.000000
+    sm__cycles_active.avg                           cycle       22940.555556  22940.555556  22940.555556 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 432, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       10.585728     10.585728     10.585728    
+    gpu__time_duration.sum                          usecond     36.576000     36.576000     36.576000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     47946.000000  47946.000000  47946.000000 
+    launch__grid_size                                           432.000000    432.000000    432.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     243023.000000 243023.000000 243023.000000
+    sm__cycles_active.avg                           cycle       21889.185185  21889.185185  21889.185185 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 435, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.168384     11.168384     11.168384    
+    gpu__time_duration.sum                          usecond     38.048000     38.048000     38.048000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     49672.000000  49672.000000  49672.000000 
+    launch__grid_size                                           435.000000    435.000000    435.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     255949.000000 255949.000000 255949.000000
+    sm__cycles_active.avg                           cycle       22968.675926  22968.675926  22968.675926 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 450, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       10.780672     10.780672     10.780672    
+    gpu__time_duration.sum                          usecond     38.080000     38.080000     38.080000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     48689.000000  48689.000000  48689.000000 
+    launch__grid_size                                           450.000000    450.000000    450.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     246442.000000 246442.000000 246442.000000
+    sm__cycles_active.avg                           cycle       22563.009259  22563.009259  22563.009259 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 455, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.392000     11.392000     11.392000    
+    gpu__time_duration.sum                          usecond     37.952000     37.952000     37.952000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     50752.000000  50752.000000  50752.000000 
+    launch__grid_size                                           455.000000    455.000000    455.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     260297.000000 260297.000000 260297.000000
+    sm__cycles_active.avg                           cycle       22900.712963  22900.712963  22900.712963 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 462, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       10.881920     10.881920     10.881920    
+    gpu__time_duration.sum                          usecond     39.264000     39.264000     39.264000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     49387.000000  49387.000000  49387.000000 
+    launch__grid_size                                           462.000000    462.000000    462.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     249686.000000 249686.000000 249686.000000
+    sm__cycles_active.avg                           cycle       23239.657407  23239.657407  23239.657407 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 475, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.577088     11.577088     11.577088    
+    gpu__time_duration.sum                          usecond     38.688000     38.688000     38.688000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     51859.000000  51859.000000  51859.000000 
+    launch__grid_size                                           475.000000    475.000000    475.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     264701.000000 264701.000000 264701.000000
+    sm__cycles_active.avg                           cycle       23094.231481  23094.231481  23094.231481 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 476, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       12.501504     12.501504     12.501504    
+    gpu__time_duration.sum                          usecond     40.256000     40.256000     40.256000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     54650.000000  54650.000000  54650.000000 
+    launch__grid_size                                           476.000000    476.000000    476.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     276360.000000 276360.000000 276360.000000
+    sm__cycles_active.avg                           cycle       24453.546296  24453.546296  24453.546296 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 480, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.031168     11.031168     11.031168    
+    gpu__time_duration.sum                          usecond     38.176000     38.176000     38.176000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     50400.000000  50400.000000  50400.000000 
+    launch__grid_size                                           480.000000    480.000000    480.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     251833.000000 251833.000000 251833.000000
+    sm__cycles_active.avg                           cycle       23342.138889  23342.138889  23342.138889 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 492, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.028736     11.028736     11.028736    
+    gpu__time_duration.sum                          usecond     39.392000     39.392000     39.392000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     50780.000000  50780.000000  50780.000000 
+    launch__grid_size                                           492.000000    492.000000    492.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     252634.000000 252634.000000 252634.000000
+    sm__cycles_active.avg                           cycle       23170.861111  23170.861111  23170.861111 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 495, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.859456     11.859456     11.859456    
+    gpu__time_duration.sum                          usecond     39.104000     39.104000     39.104000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     53548.000000  53548.000000  53548.000000 
+    launch__grid_size                                           495.000000    495.000000    495.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     270367.000000 270367.000000 270367.000000
+    sm__cycles_active.avg                           cycle       23504.120370  23504.120370  23504.120370 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 496, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       12.811008     12.811008     12.811008    
+    gpu__time_duration.sum                          usecond     40.192000     40.192000     40.192000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     56054.000000  56054.000000  56054.000000 
+    launch__grid_size                                           496.000000    496.000000    496.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     280924.000000 280924.000000 280924.000000
+    sm__cycles_active.avg                           cycle       24400.537037  24400.537037  24400.537037 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 510, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.889408     11.889408     11.889408    
+    gpu__time_duration.sum                          usecond     41.312000     41.312000     41.312000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     54346.000000  54346.000000  54346.000000 
+    launch__grid_size                                           510.000000    510.000000    510.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     271713.000000 271713.000000 271713.000000
+    sm__cycles_active.avg                           cycle       23805.879630  23805.879630  23805.879630 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 512, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       12.954624     12.954624     12.954624    
+    gpu__time_duration.sum                          usecond     42.912000     42.912000     42.912000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     57342.000000  57342.000000  57342.000000 
+    launch__grid_size                                           512.000000    512.000000    512.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     284724.000000 284724.000000 284724.000000
+    sm__cycles_active.avg                           cycle       24458.824074  24458.824074  24458.824074 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 525, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.962624     11.962624     11.962624    
+    gpu__time_duration.sum                          usecond     41.632000     41.632000     41.632000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     55139.000000  55139.000000  55139.000000 
+    launch__grid_size                                           525.000000    525.000000    525.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     272416.000000 272416.000000 272416.000000
+    sm__cycles_active.avg                           cycle       24202.685185  24202.685185  24202.685185 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 532, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       13.028864     13.028864     13.028864    
+    gpu__time_duration.sum                          usecond     40.384000     40.384000     40.384000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     58316.000000  58316.000000  58316.000000 
+    launch__grid_size                                           532.000000    532.000000    532.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     284923.000000 284923.000000 284923.000000
+    sm__cycles_active.avg                           cycle       24650.157407  24650.157407  24650.157407 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 545, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       11.959680     11.959680     11.959680    
+    gpu__time_duration.sum                          usecond     39.968000     39.968000     39.968000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     56260.000000  56260.000000  56260.000000 
+    launch__grid_size                                           545.000000    545.000000    545.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     271802.000000 271802.000000 271802.000000
+    sm__cycles_active.avg                           cycle       23682.398148  23682.398148  23682.398148 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 549, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       14.660480     14.660480     14.660480    
+    gpu__time_duration.sum                          usecond     44.032000     44.032000     44.032000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     62914.000000  62914.000000  62914.000000 
+    launch__grid_size                                           549.000000    549.000000    549.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     315320.000000 315320.000000 315320.000000
+    sm__cycles_active.avg                           cycle       25758.259259  25758.259259  25758.259259 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 552, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       12.980480     12.980480     12.980480    
+    gpu__time_duration.sum                          usecond     40.064000     40.064000     40.064000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     59075.000000  59075.000000  59075.000000 
+    launch__grid_size                                           552.000000    552.000000    552.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     282664.000000 282664.000000 282664.000000
+    sm__cycles_active.avg                           cycle       24297.666667  24297.666667  24297.666667 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 575, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       12.395136     12.395136     12.395136    
+    gpu__time_duration.sum                          usecond     42.144000     42.144000     42.144000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     58495.000000  58495.000000  58495.000000 
+    launch__grid_size                                           575.000000    575.000000    575.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     281500.000000 281500.000000 281500.000000
+    sm__cycles_active.avg                           cycle       24120.814815  24120.814815  24120.814815 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 592, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       13.466880     13.466880     13.466880    
+    gpu__time_duration.sum                          usecond     39.968000     39.968000     39.968000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     61535.000000  61535.000000  61535.000000 
+    launch__grid_size                                           592.000000    592.000000    592.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     291297.000000 291297.000000 291297.000000
+    sm__cycles_active.avg                           cycle       24424.935185  24424.935185  24424.935185 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 594, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       15.478784     15.478784     15.478784    
+    gpu__time_duration.sum                          usecond     46.720000     46.720000     46.720000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     66492.000000  66492.000000  66492.000000 
+    launch__grid_size                                           594.000000    594.000000    594.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     331869.000000 331869.000000 331869.000000
+    sm__cycles_active.avg                           cycle       27440.777778  27440.777778  27440.777778 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 616, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       13.853568     13.853568     13.853568    
+    gpu__time_duration.sum                          usecond     43.232000     43.232000     43.232000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     63522.000000  63522.000000  63522.000000 
+    launch__grid_size                                           616.000000    616.000000    616.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     301029.000000 301029.000000 301029.000000
+    sm__cycles_active.avg                           cycle       25573.740741  25573.740741  25573.740741 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 621, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       16.080640     16.080640     16.080640    
+    gpu__time_duration.sum                          usecond     46.112000     46.112000     46.112000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     68880.000000  68880.000000  68880.000000 
+    launch__grid_size                                           621.000000    621.000000    621.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     344721.000000 344721.000000 344721.000000
+    sm__cycles_active.avg                           cycle       27112.870370  27112.870370  27112.870370 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 648, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       14.333312     14.333312     14.333312    
+    gpu__time_duration.sum                          usecond     45.024000     45.024000     45.024000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     65855.000000  65855.000000  65855.000000 
+    launch__grid_size                                           648.000000    648.000000    648.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     310859.000000 310859.000000 310859.000000
+    sm__cycles_active.avg                           cycle       26240.175926  26240.175926  26240.175926 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 657, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       16.585088     16.585088     16.585088    
+    gpu__time_duration.sum                          usecond     45.632000     45.632000     45.632000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     72248.000000  72248.000000  72248.000000 
+    launch__grid_size                                           657.000000    657.000000    657.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     353238.000000 353238.000000 353238.000000
+    sm__cycles_active.avg                           cycle       27426.379630  27426.379630  27426.379630 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 680, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       14.512512     14.512512     14.512512    
+    gpu__time_duration.sum                          usecond     44.096000     44.096000     44.096000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     68012.000000  68012.000000  68012.000000 
+    launch__grid_size                                           680.000000    680.000000    680.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     314659.000000 314659.000000 314659.000000
+    sm__cycles_active.avg                           cycle       25848.962963  25848.962963  25848.962963 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 681, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       17.148160     17.148160     17.148160    
+    gpu__time_duration.sum                          usecond     44.992000     44.992000     44.992000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     74765.000000  74765.000000  74765.000000 
+    launch__grid_size                                           681.000000    681.000000    681.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     366933.000000 366933.000000 366933.000000
+    sm__cycles_active.avg                           cycle       28249.092593  28249.092593  28249.092593 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 705, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       17.371008     17.371008     17.371008    
+    gpu__time_duration.sum                          usecond     45.728000     45.728000     45.728000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     76416.000000  76416.000000  76416.000000 
+    launch__grid_size                                           705.000000    705.000000    705.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     370733.000000 370733.000000 370733.000000
+    sm__cycles_active.avg                           cycle       28025.851852  28025.851852  28025.851852 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 708, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       14.736768     14.736768     14.736768    
+    gpu__time_duration.sum                          usecond     42.752000     42.752000     42.752000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     69293.000000  69293.000000  69293.000000 
+    launch__grid_size                                           708.000000    708.000000    708.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     316854.000000 316854.000000 316854.000000
+    sm__cycles_active.avg                           cycle       26690.712963  26690.712963  26690.712963 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 732, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       17.177728     17.177728     17.177728    
+    gpu__time_duration.sum                          usecond     44.128000     44.128000     44.128000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     76462.000000  76462.000000  76462.000000 
+    launch__grid_size                                           732.000000    732.000000    732.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     361567.000000 361567.000000 361567.000000
+    sm__cycles_active.avg                           cycle       27074.416667  27074.416667  27074.416667 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 819, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       18.916736     18.916736     18.916736    
+    gpu__time_duration.sum                          usecond     48.832000     48.832000     48.832000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     84080.000000  84080.000000  84080.000000 
+    launch__grid_size                                           819.000000    819.000000    819.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     401118.000000 401118.000000 401118.000000
+    sm__cycles_active.avg                           cycle       29190.231481  29190.231481  29190.231481 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 870, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       20.521472     20.521472     20.521472    
+    gpu__time_duration.sum                          usecond     51.424000     51.424000     51.424000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     90537.000000  90537.000000  90537.000000 
+    launch__grid_size                                           870.000000    870.000000    870.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     439377.000000 439377.000000 439377.000000
+    sm__cycles_active.avg                           cycle       30836.972222  30836.972222  30836.972222 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 939, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       21.547008     21.547008     21.547008    
+    gpu__time_duration.sum                          usecond     50.400000     50.400000     50.400000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     96485.000000  96485.000000  96485.000000 
+    launch__grid_size                                           939.000000    939.000000    939.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     462972.000000 462972.000000 462972.000000
+    sm__cycles_active.avg                           cycle       31711.231481  31711.231481  31711.231481 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 981, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       22.149120     22.149120     22.149120    
+    gpu__time_duration.sum                          usecond     48.640000     48.640000     48.640000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     101173.000000 101173.000000 101173.000000
+    launch__grid_size                                           981.000000    981.000000    981.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     480183.000000 480183.000000 480183.000000
+    sm__cycles_active.avg                           cycle       31544.555556  31544.555556  31544.555556 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1029, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       22.816000     22.816000     22.816000    
+    gpu__time_duration.sum                          usecond     52.384000     52.384000     52.384000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     105739.000000 105739.000000 105739.000000
+    launch__grid_size                                           1029.000000   1029.000000   1029.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     491414.000000 491414.000000 491414.000000
+    sm__cycles_active.avg                           cycle       33214.685185  33214.685185  33214.685185 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1140, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       24.125568     24.125568     24.125568    
+    gpu__time_duration.sum                          usecond     54.880000     54.880000     54.880000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     114343.000000 114343.000000 114343.000000
+    launch__grid_size                                           1140.000000   1140.000000   1140.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     521926.000000 521926.000000 521926.000000
+    sm__cycles_active.avg                           cycle       35286.472222  35286.472222  35286.472222 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1389, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       27.108480     27.108480     27.108480    
+    gpu__time_duration.sum                          usecond     58.816000     58.816000     58.816000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     137498.000000 137498.000000 137498.000000
+    launch__grid_size                                           1389.000000   1389.000000   1389.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     587629.000000 587629.000000 587629.000000
+    sm__cycles_active.avg                           cycle       38829.101852  38829.101852  38829.101852 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1560, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       28.530176     28.530176     28.530176    
+    gpu__time_duration.sum                          usecond     58.848000     58.848000     58.848000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     151950.000000 151950.000000 151950.000000
+    launch__grid_size                                           1560.000000   1560.000000   1560.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     622469.000000 622469.000000 622469.000000
+    sm__cycles_active.avg                           cycle       39711.092593  39711.092593  39711.092593 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1650, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       33.335808     33.335808     33.335808    
+    gpu__time_duration.sum                          usecond     70.816000     70.816000     70.816000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     163818.000000 163818.000000 163818.000000
+    launch__grid_size                                           1650.000000   1650.000000   1650.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     735558.000000 735558.000000 735558.000000
+    sm__cycles_active.avg                           cycle       46544.611111  46544.611111  46544.611111 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1689, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       31.687168     31.687168     31.687168    
+    gpu__time_duration.sum                          usecond     69.472000     69.472000     69.472000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     163158.000000 163158.000000 163158.000000
+    launch__grid_size                                           1689.000000   1689.000000   1689.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     694228.000000 694228.000000 694228.000000
+    sm__cycles_active.avg                           cycle       45300.694444  45300.694444  45300.694444 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1809, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       36.580224     36.580224     36.580224    
+    gpu__time_duration.sum                          usecond     75.776000     75.776000     75.776000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     172801.000000 172801.000000 172801.000000
+    launch__grid_size                                           1809.000000   1809.000000   1809.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     803081.000000 803081.000000 803081.000000
+    sm__cycles_active.avg                           cycle       50387.601852  50387.601852  50387.601852 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2106, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       38.704000     38.704000     38.704000    
+    gpu__time_duration.sum                          usecond     83.904000     83.904000     83.904000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     193304.000000 193304.000000 193304.000000
+    launch__grid_size                                           2106.000000   2106.000000   2106.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     864734.000000 864734.000000 864734.000000
+    sm__cycles_active.avg                           cycle       56261.990741  56261.990741  56261.990741 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2490, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       40.535936     40.535936     40.535936    
+    gpu__time_duration.sum                          usecond     88.672000     88.672000     88.672000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     204262.000000 204262.000000 204262.000000
+    launch__grid_size                                           2490.000000   2490.000000   2490.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     903858.000000 903858.000000 903858.000000
+    sm__cycles_active.avg                           cycle       61345.879630  61345.879630  61345.879630 
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2610, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       42.480512     42.480512     42.480512    
+    gpu__time_duration.sum                          usecond     94.688000     94.688000     94.688000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     221968.000000 221968.000000 221968.000000
+    launch__grid_size                                           2610.000000   2610.000000   2610.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     955267.000000 955267.000000 955267.000000
+    sm__cycles_active.avg                           cycle       66225.046296  66225.046296  66225.046296 
+
+  void csrsv_by_columns_kernel_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 906, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       49.914752     49.914752     49.914752    
+    gpu__time_duration.sum                          usecond     93.856000     93.856000     93.856000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     178211.000000 178211.000000 178211.000000
+    launch__grid_size                                           906.000000    906.000000    906.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     946099.000000 946099.000000 946099.000000
+    sm__cycles_active.avg                           cycle       62240.537037  62240.537037  62240.537037 
+
+  void csrsv_by_columns_kernel_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 967, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       49.605504     49.605504     49.605504    
+    gpu__time_duration.sum                          usecond     95.168000     95.168000     95.168000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     180187.000000 180187.000000 180187.000000
+    launch__grid_size                                           967.000000    967.000000    967.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     951119.000000 951119.000000 951119.000000
+    sm__cycles_active.avg                           cycle       62068.379630  62068.379630  62068.379630 
+
+  void csrsv_by_columns_kernel_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2619, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum        Maximum        Average       
+    ----------------------------------------------- ----------- -------------- -------------- --------------
+    dram__bytes_read.sum                            Mbyte       52.811008      52.811008      52.811008     
+    gpu__time_duration.sum                          usecond     93.248000      93.248000      93.248000     
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     284539.000000  284539.000000  284539.000000 
+    launch__grid_size                                           2619.000000    2619.000000    2619.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     1060974.000000 1060974.000000 1060974.000000
+    sm__cycles_active.avg                           cycle       67141.388889   67141.388889   67141.388889  
+
+  void csrsv_by_columns_kernel_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3252, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       39.631872     39.631872     39.631872    
+    gpu__time_duration.sum                          usecond     69.056000     69.056000     69.056000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     315797.000000 315797.000000 315797.000000
+    launch__grid_size                                           3252.000000   3252.000000   3252.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     809634.000000 809634.000000 809634.000000
+    sm__cycles_active.avg                           cycle       49065.694444  49065.694444  49065.694444 
+
+  void csrsv_by_columns_kernel_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3360, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum        Maximum        Average       
+    ----------------------------------------------- ----------- -------------- -------------- --------------
+    dram__bytes_read.sum                            Mbyte       62.313344      62.313344      62.313344     
+    gpu__time_duration.sum                          usecond     136.800000     136.800000     136.800000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     330595.000000  330595.000000  330595.000000 
+    launch__grid_size                                           3360.000000    3360.000000    3360.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     1182029.000000 1182029.000000 1182029.000000
+    sm__cycles_active.avg                           cycle       64176.879630   64176.879630   64176.879630  
+
+  void csrsv_by_columns_kernel_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 7470, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum        Maximum        Average       
+    ----------------------------------------------- ----------- -------------- -------------- --------------
+    dram__bytes_read.sum                            Mbyte       79.240320      79.240320      79.240320     
+    gpu__time_duration.sum                          usecond     170.240000     170.240000     170.240000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     725605.000000  725605.000000  725605.000000 
+    launch__grid_size                                           7470.000000    7470.000000    7470.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     1394598.000000 1394598.000000 1394598.000000
+    sm__cycles_active.avg                           cycle       100917.314815  100917.314815  100917.314815 
+
+  void csrsv_by_columns_kernel_sw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2048, Device 0, 2 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum        Maximum        Average       
+    ----------------------------------------------- ----------- -------------- -------------- --------------
+    dram__bytes_read.sum                            Mbyte       55.567232      60.310912      57.939072     
+    gpu__time_duration.sum                          usecond     95.872000      220.160000     158.016000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     341796.000000  1217965.000000 779880.500000 
+    launch__grid_size                                           2048.000000    2048.000000    2048.000000   
+    lts__t_requests_srcunit_tex_op_read.sum         request     1059034.000000 1793585.000000 1426309.500000
+    sm__cycles_active.avg                           cycle       67460.861111   153107.546296  110284.203704 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2226, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       291.584000   291.584000   291.584000  
+    gpu__time_duration.sum                          usecond     11.712000    11.712000    11.712000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     35826.000000 35826.000000 35826.000000
+    launch__grid_size                                           2226.000000  2226.000000  2226.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     4618.000000  4618.000000  4618.000000 
+    sm__cycles_active.avg                           cycle       3714.944444  3714.944444  3714.944444 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2280, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       300.032000   300.032000   300.032000  
+    gpu__time_duration.sum                          usecond     11.488000    11.488000    11.488000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     36696.000000 36696.000000 36696.000000
+    launch__grid_size                                           2280.000000  2280.000000  2280.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     4714.000000  4714.000000  4714.000000 
+    sm__cycles_active.avg                           cycle       3713.648148  3713.648148  3713.648148 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2376, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       310.912000   310.912000   310.912000  
+    gpu__time_duration.sum                          usecond     11.616000    11.616000    11.616000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     38241.000000 38241.000000 38241.000000
+    launch__grid_size                                           2376.000000  2376.000000  2376.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     4903.000000  4903.000000  4903.000000 
+    sm__cycles_active.avg                           cycle       3796.324074  3796.324074  3796.324074 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2445, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       320.256000   320.256000   320.256000  
+    gpu__time_duration.sum                          usecond     11.872000    11.872000    11.872000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     39351.000000 39351.000000 39351.000000
+    launch__grid_size                                           2445.000000  2445.000000  2445.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     5063.000000  5063.000000  5063.000000 
+    sm__cycles_active.avg                           cycle       3847.444444  3847.444444  3847.444444 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2548, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       333.312000   333.312000   333.312000  
+    gpu__time_duration.sum                          usecond     11.840000    11.840000    11.840000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     41008.000000 41008.000000 41008.000000
+    launch__grid_size                                           2548.000000  2548.000000  2548.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     5232.000000  5232.000000  5232.000000 
+    sm__cycles_active.avg                           cycle       3929.333333  3929.333333  3929.333333 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2607, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       340.608000   340.608000   340.608000  
+    gpu__time_duration.sum                          usecond     11.648000    11.648000    11.648000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     41958.000000 41958.000000 41958.000000
+    launch__grid_size                                           2607.000000  2607.000000  2607.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     5379.000000  5379.000000  5379.000000 
+    sm__cycles_active.avg                           cycle       3981.731481  3981.731481  3981.731481 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2698, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       352.896000   352.896000   352.896000  
+    gpu__time_duration.sum                          usecond     11.872000    11.872000    11.872000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     43423.000000 43423.000000 43423.000000
+    launch__grid_size                                           2698.000000  2698.000000  2698.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     5652.000000  5652.000000  5652.000000 
+    sm__cycles_active.avg                           cycle       4241.611111  4241.611111  4241.611111 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2783, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       363.520000   363.520000   363.520000  
+    gpu__time_duration.sum                          usecond     11.552000    11.552000    11.552000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     44789.000000 44789.000000 44789.000000
+    launch__grid_size                                           2783.000000  2783.000000  2783.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     5713.000000  5713.000000  5713.000000 
+    sm__cycles_active.avg                           cycle       4109.629630  4109.629630  4109.629630 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 2911, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       380.032000   380.032000   380.032000  
+    gpu__time_duration.sum                          usecond     11.552000    11.552000    11.552000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     46849.000000 46849.000000 46849.000000
+    launch__grid_size                                           2911.000000  2911.000000  2911.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     5986.000000  5986.000000  5986.000000 
+    sm__cycles_active.avg                           cycle       4212.120370  4212.120370  4212.120370 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3019, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       394.624000   394.624000   394.624000  
+    gpu__time_duration.sum                          usecond     11.808000    11.808000    11.808000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     48589.000000 48589.000000 48589.000000
+    launch__grid_size                                           3019.000000  3019.000000  3019.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     6182.000000  6182.000000  6182.000000 
+    sm__cycles_active.avg                           cycle       4432.425926  4432.425926  4432.425926 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3152, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       410.880000   410.880000   410.880000  
+    gpu__time_duration.sum                          usecond     11.648000    11.648000    11.648000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     50729.000000 50729.000000 50729.000000
+    launch__grid_size                                           3152.000000  3152.000000  3152.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     6450.000000  6450.000000  6450.000000 
+    sm__cycles_active.avg                           cycle       4391.675926  4391.675926  4391.675926 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3235, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       420.992000   420.992000   420.992000  
+    gpu__time_duration.sum                          usecond     11.648000    11.648000    11.648000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     52066.000000 52066.000000 52066.000000
+    launch__grid_size                                           3235.000000  3235.000000  3235.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     6623.000000  6623.000000  6623.000000 
+    sm__cycles_active.avg                           cycle       4489.342593  4489.342593  4489.342593 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3345, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       435.712000   435.712000   435.712000  
+    gpu__time_duration.sum                          usecond     11.680000    11.680000    11.680000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     53835.000000 53835.000000 53835.000000
+    launch__grid_size                                           3345.000000  3345.000000  3345.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     6848.000000  6848.000000  6848.000000 
+    sm__cycles_active.avg                           cycle       4591.111111  4591.111111  4591.111111 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3464, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       450.688000   450.688000   450.688000  
+    gpu__time_duration.sum                          usecond     11.776000    11.776000    11.776000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     55751.000000 55751.000000 55751.000000
+    launch__grid_size                                           3464.000000  3464.000000  3464.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     7072.000000  7072.000000  7072.000000 
+    sm__cycles_active.avg                           cycle       4664.666667  4664.666667  4664.666667 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3673, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       479.616000   479.616000   479.616000  
+    gpu__time_duration.sum                          usecond     11.680000    11.680000    11.680000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     59113.000000 59113.000000 59113.000000
+    launch__grid_size                                           3673.000000  3673.000000  3673.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     7624.000000  7624.000000  7624.000000 
+    sm__cycles_active.avg                           cycle       4845.351852  4845.351852  4845.351852 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3802, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       494.976000   494.976000   494.976000  
+    gpu__time_duration.sum                          usecond     11.552000    11.552000    11.552000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     61189.000000 61189.000000 61189.000000
+    launch__grid_size                                           3802.000000  3802.000000  3802.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     7698.000000  7698.000000  7698.000000 
+    sm__cycles_active.avg                           cycle       4967.731481  4967.731481  4967.731481 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 3940, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       513.280000   513.280000   513.280000  
+    gpu__time_duration.sum                          usecond     11.616000    11.616000    11.616000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     63412.000000 63412.000000 63412.000000
+    launch__grid_size                                           3940.000000  3940.000000  3940.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     8021.000000  8021.000000  8021.000000 
+    sm__cycles_active.avg                           cycle       5035.444444  5035.444444  5035.444444 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 4089, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       530.432000   530.432000   530.432000  
+    gpu__time_duration.sum                          usecond     11.616000    11.616000    11.616000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     65808.000000 65808.000000 65808.000000
+    launch__grid_size                                           4089.000000  4089.000000  4089.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     8262.000000  8262.000000  8262.000000 
+    sm__cycles_active.avg                           cycle       5146.824074  5146.824074  5146.824074 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 4256, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       551.808000   551.808000   551.808000  
+    gpu__time_duration.sum                          usecond     11.776000    11.776000    11.776000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     68495.000000 68495.000000 68495.000000
+    launch__grid_size                                           4256.000000  4256.000000  4256.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     8573.000000  8573.000000  8573.000000 
+    sm__cycles_active.avg                           cycle       5290.731481  5290.731481  5290.731481 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 4416, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       572.160000   572.160000   572.160000  
+    gpu__time_duration.sum                          usecond     11.936000    11.936000    11.936000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     71070.000000 71070.000000 71070.000000
+    launch__grid_size                                           4416.000000  4416.000000  4416.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     8878.000000  8878.000000  8878.000000 
+    sm__cycles_active.avg                           cycle       5432.787037  5432.787037  5432.787037 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 4709, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       611.840000   611.840000   611.840000  
+    gpu__time_duration.sum                          usecond     12.032000    12.032000    12.032000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     75788.000000 75788.000000 75788.000000
+    launch__grid_size                                           4709.000000  4709.000000  4709.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     9482.000000  9482.000000  9482.000000 
+    sm__cycles_active.avg                           cycle       5760.722222  5760.722222  5760.722222 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 4898, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       633.984000   633.984000   633.984000  
+    gpu__time_duration.sum                          usecond     12.128000    12.128000    12.128000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     78830.000000 78830.000000 78830.000000
+    launch__grid_size                                           4898.000000  4898.000000  4898.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     9890.000000  9890.000000  9890.000000 
+    sm__cycles_active.avg                           cycle       5828.398148  5828.398148  5828.398148 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 5175, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       665.984000   665.984000   665.984000  
+    gpu__time_duration.sum                          usecond     12.352000    12.352000    12.352000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     83286.000000 83286.000000 83286.000000
+    launch__grid_size                                           5175.000000  5175.000000  5175.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     10429.000000 10429.000000 10429.000000
+    sm__cycles_active.avg                           cycle       6067.972222  6067.972222  6067.972222 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 5428, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       696.960000   696.960000   696.960000  
+    gpu__time_duration.sum                          usecond     12.672000    12.672000    12.672000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     87358.000000 87358.000000 87358.000000
+    launch__grid_size                                           5428.000000  5428.000000  5428.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     10864.000000 10864.000000 10864.000000
+    sm__cycles_active.avg                           cycle       6336.222222  6336.222222  6336.222222 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 5642, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       723.584000   723.584000   723.584000  
+    gpu__time_duration.sum                          usecond     12.928000    12.928000    12.928000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     90803.000000 90803.000000 90803.000000
+    launch__grid_size                                           5642.000000  5642.000000  5642.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     11188.000000 11188.000000 11188.000000
+    sm__cycles_active.avg                           cycle       6450.546296  6450.546296  6450.546296 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 5850, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum      Maximum      Average     
+    ----------------------------------------------- ----------- ------------ ------------ ------------
+    dram__bytes_read.sum                            Kbyte       747.776000   747.776000   747.776000  
+    gpu__time_duration.sum                          usecond     13.184000    13.184000    13.184000   
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     94149.000000 94149.000000 94149.000000
+    launch__grid_size                                           5850.000000  5850.000000  5850.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     11560.000000 11560.000000 11560.000000
+    sm__cycles_active.avg                           cycle       6648.648148  6648.648148  6648.648148 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 6315, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Kbyte       813.312000    813.312000    813.312000   
+    gpu__time_duration.sum                          usecond     13.792000     13.792000     13.792000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     101634.000000 101634.000000 101634.000000
+    launch__grid_size                                           6315.000000   6315.000000   6315.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     12455.000000  12455.000000  12455.000000 
+    sm__cycles_active.avg                           cycle       7074.824074   7074.824074   7074.824074  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 6607, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Kbyte       847.744000    847.744000    847.744000   
+    gpu__time_duration.sum                          usecond     14.144000     14.144000     14.144000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     106333.000000 106333.000000 106333.000000
+    launch__grid_size                                           6607.000000   6607.000000   6607.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     13065.000000  13065.000000  13065.000000 
+    sm__cycles_active.avg                           cycle       7322.916667   7322.916667   7322.916667  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 6985, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Kbyte       890.624000    890.624000    890.624000   
+    gpu__time_duration.sum                          usecond     14.656000     14.656000     14.656000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     112417.000000 112417.000000 112417.000000
+    launch__grid_size                                           6985.000000   6985.000000   6985.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     13632.000000  13632.000000  13632.000000 
+    sm__cycles_active.avg                           cycle       7633.111111   7633.111111   7633.111111  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 7256, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Kbyte       926.848000    926.848000    926.848000   
+    gpu__time_duration.sum                          usecond     14.976000     14.976000     14.976000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     116777.000000 116777.000000 116777.000000
+    launch__grid_size                                           7256.000000   7256.000000   7256.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     14078.000000  14078.000000  14078.000000 
+    sm__cycles_active.avg                           cycle       7954.435185   7954.435185   7954.435185  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 7498, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Kbyte       953.344000    953.344000    953.344000   
+    gpu__time_duration.sum                          usecond     15.520000     15.520000     15.520000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     120673.000000 120673.000000 120673.000000
+    launch__grid_size                                           7498.000000   7498.000000   7498.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     14519.000000  14519.000000  14519.000000 
+    sm__cycles_active.avg                           cycle       8248.203704   8248.203704   8248.203704  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 7807, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Kbyte       993.920000    993.920000    993.920000   
+    gpu__time_duration.sum                          usecond     15.680000     15.680000     15.680000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     125644.000000 125644.000000 125644.000000
+    launch__grid_size                                           7807.000000   7807.000000   7807.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     15014.000000  15014.000000  15014.000000 
+    sm__cycles_active.avg                           cycle       8431.814815   8431.814815   8431.814815  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 8716, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.112448      1.112448      1.112448     
+    gpu__time_duration.sum                          usecond     17.024000     17.024000     17.024000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     140275.000000 140275.000000 140275.000000
+    launch__grid_size                                           8716.000000   8716.000000   8716.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     16561.000000  16561.000000  16561.000000 
+    sm__cycles_active.avg                           cycle       9348.518519   9348.518519   9348.518519  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 9265, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.177600      1.177600      1.177600     
+    gpu__time_duration.sum                          usecond     17.536000     17.536000     17.536000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     149110.000000 149110.000000 149110.000000
+    launch__grid_size                                           9265.000000   9265.000000   9265.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     17607.000000  17607.000000  17607.000000 
+    sm__cycles_active.avg                           cycle       9781.833333   9781.833333   9781.833333  
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 10008, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.250176      1.250176      1.250176     
+    gpu__time_duration.sum                          usecond     18.496000     18.496000     18.496000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     161067.000000 161067.000000 161067.000000
+    launch__grid_size                                           10008.000000  10008.000000  10008.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     18565.000000  18565.000000  18565.000000 
+    sm__cycles_active.avg                           cycle       10476.870370  10476.870370  10476.870370 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 10457, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.293824      1.293824      1.293824     
+    gpu__time_duration.sum                          usecond     19.040000     19.040000     19.040000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     168293.000000 168293.000000 168293.000000
+    launch__grid_size                                           10457.000000  10457.000000  10457.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     19175.000000  19175.000000  19175.000000 
+    sm__cycles_active.avg                           cycle       10924.777778  10924.777778  10924.777778 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 10968, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.341568      1.341568      1.341568     
+    gpu__time_duration.sum                          usecond     19.776000     19.776000     19.776000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     176517.000000 176517.000000 176517.000000
+    launch__grid_size                                           10968.000000  10968.000000  10968.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     19840.000000  19840.000000  19840.000000 
+    sm__cycles_active.avg                           cycle       11495.574074  11495.574074  11495.574074 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 12140, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.437184      1.437184      1.437184     
+    gpu__time_duration.sum                          usecond     21.216000     21.216000     21.216000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     195380.000000 195380.000000 195380.000000
+    launch__grid_size                                           12140.000000  12140.000000  12140.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     21215.000000  21215.000000  21215.000000 
+    sm__cycles_active.avg                           cycle       12592.722222  12592.722222  12592.722222 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 14806, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.714944      1.714944      1.714944     
+    gpu__time_duration.sum                          usecond     24.704000     24.704000     24.704000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     238285.000000 238285.000000 238285.000000
+    launch__grid_size                                           14806.000000  14806.000000  14806.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     24249.000000  24249.000000  24249.000000 
+    sm__cycles_active.avg                           cycle       15350.240741  15350.240741  15350.240741 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 16625, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.844352      1.844352      1.844352     
+    gpu__time_duration.sum                          usecond     27.168000     27.168000     27.168000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     267560.000000 267560.000000 267560.000000
+    launch__grid_size                                           16625.000000  16625.000000  16625.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     25918.000000  25918.000000  25918.000000 
+    sm__cycles_active.avg                           cycle       17287.268519  17287.268519  17287.268519 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 17576, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.967104      1.967104      1.967104     
+    gpu__time_duration.sum                          usecond     28.192000     28.192000     28.192000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     282866.000000 282866.000000 282866.000000
+    launch__grid_size                                           17576.000000  17576.000000  17576.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     27973.000000  27973.000000  27973.000000 
+    sm__cycles_active.avg                           cycle       18066.120370  18066.120370  18066.120370 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 18006, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       1.949824      1.949824      1.949824     
+    gpu__time_duration.sum                          usecond     28.928000     28.928000     28.928000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     289785.000000 289785.000000 289785.000000
+    launch__grid_size                                           18006.000000  18006.000000  18006.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     27379.000000  27379.000000  27379.000000 
+    sm__cycles_active.avg                           cycle       18625.537037  18625.537037  18625.537037 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 19272, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       2.176384      2.176384      2.176384     
+    gpu__time_duration.sum                          usecond     30.400000     30.400000     30.400000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     310161.000000 310161.000000 310161.000000
+    launch__grid_size                                           19272.000000  19272.000000  19272.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     30548.000000  30548.000000  30548.000000 
+    sm__cycles_active.avg                           cycle       19867.388889  19867.388889  19867.388889 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 22443, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       2.309376      2.309376      2.309376     
+    gpu__time_duration.sum                          usecond     34.496000     34.496000     34.496000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     361194.000000 361194.000000 361194.000000
+    launch__grid_size                                           22443.000000  22443.000000  22443.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     32161.000000  32161.000000  32161.000000 
+    sm__cycles_active.avg                           cycle       23022.037037  23022.037037  23022.037037 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 26560, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       2.345728      2.345728      2.345728     
+    gpu__time_duration.sum                          usecond     39.936000     39.936000     39.936000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     427450.000000 427450.000000 427450.000000
+    launch__grid_size                                           26560.000000  26560.000000  26560.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     33037.000000  33037.000000  33037.000000 
+    sm__cycles_active.avg                           cycle       27268.157407  27268.157407  27268.157407 
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 27840, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum       Maximum       Average      
+    ----------------------------------------------- ----------- ------------- ------------- -------------
+    dram__bytes_read.sum                            Mbyte       2.381056      2.381056      2.381056     
+    gpu__time_duration.sum                          usecond     41.728000     41.728000     41.728000    
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     448050.000000 448050.000000 448050.000000
+    launch__grid_size                                           27840.000000  27840.000000  27840.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     33431.000000  33431.000000  33431.000000 
+    sm__cycles_active.avg                           cycle       28585.592593  28585.592593  28585.592593 
+
+Note: The shown averages are calculated as the arithmetic mean of the metric values after the evaluation of the metrics for each individual kernel launch.
+If aggregating across varying launch configurations (like shared memory, cache config settings), the arithmetic mean can be misleading and looking at the individual results is recommended instead.
+This output mode is backwards compatible to the per-kernel summary output of nvprof

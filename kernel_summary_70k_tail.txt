@@ -1,0 +1,227 @@
+==PROF== Connected to process 2214373 (/scratch/axs2061/ReSolveDir/build/examples/hybrid_solver.exe)
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_scale_diagonal_k1_hw": 0%....50%....100% - 1 pass
+==PROF== Profiling "csrsv_by_columns_k2_hw": 0%....50%....100% - 1 pass
+==PROF== Disconnected from process 2214373
+[2214373] hybrid_solver.exe@127.0.0.1
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 47, Device 0, 1 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       48.512000   48.512000   48.512000  
+    gpu__time_duration.sum                          usecond     12.896000   12.896000   12.896000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     1175.000000 1175.000000 1175.000000
+    launch__grid_size                                           47.000000   47.000000   47.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     995.000000  995.000000  995.000000 
+    sm__cycles_active.avg                           cycle       3282.833333 3282.833333 3282.833333
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 60, Device 0, 2 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       59.776000   59.904000   59.840000  
+    gpu__time_duration.sum                          usecond     13.184000   13.280000   13.232000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     1500.000000 1500.000000 1500.000000
+    launch__grid_size                                           60.000000   60.000000   60.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1253.000000 1262.000000 1257.500000
+    sm__cycles_active.avg                           cycle       4277.870370 4301.342593 4289.606481
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 61, Device 0, 8 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       60.160000   60.800000   60.416000  
+    gpu__time_duration.sum                          usecond     12.992000   16.160000   13.528000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     1519.000000 1525.000000 1524.250000
+    launch__grid_size                                           61.000000   61.000000   61.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1274.000000 1334.000000 1289.000000
+    sm__cycles_active.avg                           cycle       4270.240741 4445.546296 4345.711806
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 62, Device 0, 2 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       60.288000   60.800000   60.544000  
+    gpu__time_duration.sum                          usecond     13.344000   13.344000   13.344000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     1544.000000 1550.000000 1547.000000
+    launch__grid_size                                           62.000000   62.000000   62.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1299.000000 1311.000000 1305.000000
+    sm__cycles_active.avg                           cycle       4442.175926 4529.203704 4485.689815
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 79, Device 0, 2 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       76.416000   76.544000   76.480000  
+    gpu__time_duration.sum                          usecond     13.088000   13.184000   13.136000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     1975.000000 1975.000000 1975.000000
+    launch__grid_size                                           79.000000   79.000000   79.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1665.000000 1670.000000 1667.500000
+    sm__cycles_active.avg                           cycle       5568.194444 5585.824074 5577.009259
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 80, Device 0, 8 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       76.544000   77.440000   76.992000  
+    gpu__time_duration.sum                          usecond     13.120000   13.632000   13.368000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     1994.000000 2000.000000 1999.250000
+    launch__grid_size                                           80.000000   80.000000   80.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1653.000000 1699.000000 1676.500000
+    sm__cycles_active.avg                           cycle       5629.472222 5923.648148 5757.064815
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 81, Device 0, 8 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       77.568000   78.720000   78.032000  
+    gpu__time_duration.sum                          usecond     13.120000   13.344000   13.276000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     2019.000000 2025.000000 2024.250000
+    launch__grid_size                                           81.000000   81.000000   81.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1657.000000 1763.000000 1703.625000
+    sm__cycles_active.avg                           cycle       5735.175926 5839.194444 5791.969907
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 82, Device 0, 8 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       78.336000   79.488000   78.944000  
+    gpu__time_duration.sum                          usecond     13.184000   13.472000   13.268000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     2044.000000 2050.000000 2049.250000
+    launch__grid_size                                           82.000000   82.000000   82.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1678.000000 1786.000000 1720.250000
+    sm__cycles_active.avg                           cycle       5780.481481 5988.601852 5871.268519
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 83, Device 0, 8 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       79.488000   80.768000   80.032000  
+    gpu__time_duration.sum                          usecond     13.184000   13.632000   13.356000  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     2069.000000 2075.000000 2074.250000
+    launch__grid_size                                           83.000000   83.000000   83.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1717.000000 1805.000000 1746.625000
+    sm__cycles_active.avg                           cycle       5922.814815 6152.879630 5981.752315
+
+  void csrsv_by_columns_k2_hw<(bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 84, Device 0, 3 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum     Maximum     Average    
+    ----------------------------------------------- ----------- ----------- ----------- -----------
+    dram__bytes_read.sum                            Kbyte       80.512000   81.024000   80.725333  
+    gpu__time_duration.sum                          usecond     13.184000   13.216000   13.194667  
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     2094.000000 2100.000000 2098.000000
+    launch__grid_size                                           84.000000   84.000000   84.000000  
+    lts__t_requests_srcunit_tex_op_read.sum         request     1725.000000 1829.000000 1770.666667
+    sm__cycles_active.avg                           cycle       5934.768519 5965.027778 5949.774691
+
+  void csrsv_scale_diagonal_k1_hw<(bool)1, (bool)1>(gluCsrsvParams, int), Block Size 256, Grid Size 1, Device 0, 50 invocations 
+    Section: Command line profiler metrics
+    Metric Name                                     Metric Unit Minimum   Maximum   Average  
+    ----------------------------------------------- ----------- --------- --------- ---------
+    dram__bytes_read.sum                            Kbyte       3.968000  6.272000  4.213760 
+    gpu__time_duration.sum                          usecond     10.144000 10.816000 10.440320
+    l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum request     19.000000 19.000000 19.000000
+    launch__grid_size                                           1.000000  1.000000  1.000000 
+    lts__t_requests_srcunit_tex_op_read.sum         request     4.000000  5.000000  4.120000 
+    sm__cycles_active.avg                           cycle       49.601852 54.620370 51.667222
+
+Note: The shown averages are calculated as the arithmetic mean of the metric values after the evaluation of the metrics for each individual kernel launch.
+If aggregating across varying launch configurations (like shared memory, cache config settings), the arithmetic mean can be misleading and looking at the individual results is recommended instead.
+This output mode is backwards compatible to the per-kernel summary output of nvprof
